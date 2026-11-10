@@ -1,0 +1,1220 @@
+incident_id,reported,unit,category,severity,closed,days_to_close,rca_required,rca_completed
+SYN-QI-000001,2024-01-20,Medical Ward A,Fall,No harm,2024-01-24,4,False,False
+SYN-QI-000002,2024-01-31,Medical Ward A,Fall,Near miss,2024-02-08,8,False,False
+SYN-QI-000003,2024-01-01,Medical Ward A,Fall,No harm,2024-01-17,16,False,False
+SYN-QI-000004,2024-01-21,Medical Ward A,Medication error,Near miss,2024-02-08,18,False,False
+SYN-QI-000005,2024-01-05,Medical Ward A,Medication error,Minor harm,2024-01-22,17,False,False
+SYN-QI-000006,2024-01-15,Medical Ward A,Medication error,No harm,2024-02-02,18,False,False
+SYN-QI-000007,2024-01-03,Medical Ward A,Patient identification,No harm,2024-01-31,28,False,False
+SYN-QI-000008,2024-01-21,Medical Ward A,Documentation,No harm,2024-02-04,14,False,False
+SYN-QI-000009,2024-01-13,Medical Ward A,Other,No harm,2024-02-08,26,False,False
+SYN-QI-000010,2024-01-14,Medical Ward A,Documentation,No harm,2024-01-25,11,False,False
+SYN-QI-000011,2024-01-24,Surgical Ward B,Medication error,No harm,2024-02-09,16,False,False
+SYN-QI-000012,2024-01-17,Surgical Ward B,Medication error,No harm,2024-02-07,21,False,False
+SYN-QI-000013,2024-01-13,Surgical Ward B,Medication error,No harm,2024-01-20,7,False,False
+SYN-QI-000014,2024-01-30,Surgical Ward B,Patient identification,Minor harm,2024-02-07,8,False,False
+SYN-QI-000015,2024-01-09,Surgical Ward B,Patient identification,No harm,2024-01-23,14,False,False
+SYN-QI-000016,2024-01-22,Surgical Ward B,Documentation,Minor harm,2024-02-15,24,False,False
+SYN-QI-000017,2024-01-10,Surgical Ward B,Pressure injury,Minor harm,2024-01-16,6,False,False
+SYN-QI-000018,2024-01-01,Surgical Ward B,Other,No harm,2024-02-01,31,False,False
+SYN-QI-000019,2024-01-27,Surgical Ward B,Other,Minor harm,2024-02-11,15,False,False
+SYN-QI-000020,2024-01-20,Surgical Ward B,Delay in care,Near miss,2024-02-10,21,False,False
+SYN-QI-000021,2024-01-04,Surgical Ward B,Equipment / device,No harm,2024-01-31,27,False,False
+SYN-QI-000022,2024-01-17,ICU,Medication error,Near miss,2024-01-26,9,False,False
+SYN-QI-000023,2024-01-30,ICU,Medication error,No harm,2024-02-15,16,False,False
+SYN-QI-000024,2024-01-20,ICU,Pressure injury,Near miss,2024-01-28,8,False,False
+SYN-QI-000025,2024-01-13,ICU,Delay in care,Moderate harm,2024-01-19,6,True,True
+SYN-QI-000026,2024-01-08,Emergency Dept,Medication error,Near miss,2024-01-29,21,False,False
+SYN-QI-000027,2024-01-10,Emergency Dept,Medication error,Near miss,2024-02-10,31,False,False
+SYN-QI-000028,2024-01-19,Emergency Dept,Medication error,No harm,2024-02-16,28,False,False
+SYN-QI-000029,2024-01-20,Emergency Dept,Medication error,No harm,2024-03-03,43,False,False
+SYN-QI-000030,2024-01-26,Emergency Dept,Pressure injury,No harm,2024-02-18,23,False,False
+SYN-QI-000031,2024-01-15,Emergency Dept,Equipment / device,Minor harm,2024-01-21,6,False,False
+SYN-QI-000032,2024-01-30,Emergency Dept,Pressure injury,No harm,2024-02-06,7,False,False
+SYN-QI-000033,2024-01-04,Emergency Dept,Patient identification,No harm,2024-01-05,1,False,False
+SYN-QI-000034,2024-01-25,Emergency Dept,Patient identification,Near miss,2024-02-07,13,False,False
+SYN-QI-000035,2024-01-16,Emergency Dept,Documentation,No harm,2024-01-30,14,False,False
+SYN-QI-000036,2024-01-05,Paediatrics,Fall,No harm,2024-02-09,35,False,False
+SYN-QI-000037,2024-01-10,Paediatrics,Medication error,No harm,2024-01-12,2,False,False
+SYN-QI-000038,2024-01-12,Paediatrics,Medication error,No harm,2024-01-23,11,False,False
+SYN-QI-000039,2024-01-11,Paediatrics,Medication error,No harm,2024-01-18,7,False,False
+SYN-QI-000040,2024-01-24,Paediatrics,Delay in care,Minor harm,2024-02-10,17,False,False
+SYN-QI-000041,2024-01-27,Paediatrics,Equipment / device,Near miss,2024-02-20,24,False,False
+SYN-QI-000042,2024-01-05,Paediatrics,Other,No harm,2024-01-28,23,False,False
+SYN-QI-000043,2024-01-05,Maternity,Medication error,Severe harm / Sentinel,2024-02-05,31,True,True
+SYN-QI-000044,2024-01-23,Maternity,Documentation,No harm,2024-02-11,19,False,False
+SYN-QI-000045,2024-01-28,Maternity,Other,Minor harm,2024-03-11,43,False,False
+SYN-QI-000046,2024-01-24,Maternity,Patient identification,No harm,2024-02-03,10,False,False
+SYN-QI-000047,2024-01-11,Maternity,Pressure injury,No harm,2024-01-28,17,False,False
+SYN-QI-000048,2024-01-27,Maternity,Documentation,Minor harm,2024-02-11,15,False,False
+SYN-QI-000049,2024-01-08,Maternity,Equipment / device,No harm,2024-01-22,14,False,False
+SYN-QI-000050,2024-01-29,Maternity,Delay in care,Severe harm / Sentinel,2024-02-12,14,True,False
+SYN-QI-000051,2024-02-05,Medical Ward A,Fall,Minor harm,2024-02-13,8,False,False
+SYN-QI-000052,2024-02-06,Medical Ward A,Medication error,No harm,2024-02-20,14,False,False
+SYN-QI-000053,2024-02-23,Medical Ward A,Medication error,No harm,2024-03-10,16,False,False
+SYN-QI-000054,2024-02-09,Medical Ward A,Medication error,No harm,2024-03-03,23,False,False
+SYN-QI-000055,2024-02-12,Medical Ward A,Medication error,Near miss,2024-02-14,2,False,False
+SYN-QI-000056,2024-02-06,Medical Ward A,Documentation,Moderate harm,2024-03-04,27,True,True
+SYN-QI-000057,2024-02-16,Medical Ward A,Equipment / device,Near miss,2024-03-12,25,False,False
+SYN-QI-000058,2024-02-27,Medical Ward A,Pressure injury,Near miss,2024-03-06,8,False,False
+SYN-QI-000059,2024-02-25,Medical Ward A,Other,Minor harm,2024-03-02,6,False,False
+SYN-QI-000060,2024-02-26,Medical Ward A,Delay in care,No harm,2024-03-31,34,False,False
+SYN-QI-000061,2024-02-29,Medical Ward A,Other,No harm,2024-03-23,23,False,False
+SYN-QI-000062,2024-02-22,Medical Ward A,Pressure injury,Near miss,2024-03-05,12,False,False
+SYN-QI-000063,2024-02-14,Surgical Ward B,Fall,Minor harm,2024-02-26,12,False,False
+SYN-QI-000064,2024-02-12,Surgical Ward B,Medication error,Near miss,2024-03-16,33,False,False
+SYN-QI-000065,2024-02-02,Surgical Ward B,Medication error,Near miss,2024-02-13,11,False,False
+SYN-QI-000066,2024-02-28,Surgical Ward B,Medication error,No harm,2024-03-07,8,False,False
+SYN-QI-000067,2024-02-10,Surgical Ward B,Medication error,Near miss,2024-02-26,16,False,False
+SYN-QI-000068,2024-02-07,Surgical Ward B,Delay in care,No harm,2024-02-23,16,False,False
+SYN-QI-000069,2024-02-04,Surgical Ward B,Delay in care,Minor harm,2024-02-15,11,False,False
+SYN-QI-000070,2024-02-17,Surgical Ward B,Other,Minor harm,2024-03-10,22,False,False
+SYN-QI-000071,2024-02-13,Surgical Ward B,Documentation,No harm,2024-02-27,14,False,False
+SYN-QI-000072,2024-02-12,Surgical Ward B,Equipment / device,No harm,2024-02-18,6,False,False
+SYN-QI-000073,2024-02-09,ICU,Medication error,Near miss,2024-03-02,22,False,False
+SYN-QI-000074,2024-02-15,ICU,Medication error,No harm,2024-02-17,2,False,False
+SYN-QI-000075,2024-02-11,ICU,Documentation,Moderate harm,2024-03-01,19,True,True
+SYN-QI-000076,2024-02-10,ICU,Equipment / device,No harm,2024-02-16,6,False,False
+SYN-QI-000077,2024-02-19,Emergency Dept,Fall,Near miss,2024-02-25,6,False,False
+SYN-QI-000078,2024-02-26,Emergency Dept,Fall,Near miss,2024-04-17,51,False,False
+SYN-QI-000079,2024-02-19,Emergency Dept,Medication error,No harm,2024-03-06,16,False,False
+SYN-QI-000080,2024-02-19,Emergency Dept,Medication error,Minor harm,2024-02-25,6,False,False
+SYN-QI-000081,2024-02-13,Emergency Dept,Equipment / device,Near miss,2024-03-04,20,False,False
+SYN-QI-000082,2024-02-11,Emergency Dept,Delay in care,Moderate harm,2024-02-25,14,True,True
+SYN-QI-000083,2024-02-15,Emergency Dept,Equipment / device,Minor harm,2024-02-19,4,False,False
+SYN-QI-000084,2024-02-27,Emergency Dept,Equipment / device,No harm,2024-03-11,13,False,False
+SYN-QI-000085,2024-02-13,Emergency Dept,Patient identification,No harm,2024-03-02,18,False,False
+SYN-QI-000086,2024-02-05,Paediatrics,Pressure injury,Moderate harm,2024-02-18,13,True,True
+SYN-QI-000087,2024-02-01,Paediatrics,Equipment / device,No harm,2024-02-25,24,False,False
+SYN-QI-000088,2024-02-20,Paediatrics,Documentation,Moderate harm,2024-03-10,19,True,True
+SYN-QI-000089,2024-02-10,Paediatrics,Documentation,Minor harm,2024-03-02,21,False,False
+SYN-QI-000090,2024-02-29,Maternity,Medication error,Moderate harm,2024-03-13,13,True,True
+SYN-QI-000091,2024-02-13,Maternity,Medication error,Minor harm,2024-03-08,24,False,False
+SYN-QI-000092,2024-02-03,Maternity,Delay in care,Near miss,2024-02-15,12,False,False
+SYN-QI-000093,2024-02-23,Maternity,Patient identification,No harm,2024-02-24,1,False,False
+SYN-QI-000094,2024-02-23,Maternity,Patient identification,Near miss,2024-03-04,10,False,False
+SYN-QI-000095,2024-02-28,Maternity,Patient identification,Minor harm,2024-02-28,0,False,False
+SYN-QI-000096,2024-03-15,Medical Ward A,Fall,Near miss,2024-03-24,9,False,False
+SYN-QI-000097,2024-03-20,Medical Ward A,Medication error,No harm,2024-04-06,17,False,False
+SYN-QI-000098,2024-03-09,Medical Ward A,Medication error,Near miss,2024-03-28,19,False,False
+SYN-QI-000099,2024-03-25,Medical Ward A,Medication error,Near miss,2024-04-30,36,False,False
+SYN-QI-000100,2024-03-25,Medical Ward A,Medication error,Minor harm,2024-04-11,17,False,False
+SYN-QI-000101,2024-03-08,Medical Ward A,Medication error,Minor harm,2024-03-15,7,False,False
+SYN-QI-000102,2024-03-12,Medical Ward A,Documentation,Minor harm,2024-03-20,8,False,False
+SYN-QI-000103,2024-03-24,Medical Ward A,Other,No harm,2024-04-02,9,False,False
+SYN-QI-000104,2024-03-31,Medical Ward A,Patient identification,Near miss,2024-04-25,25,False,False
+SYN-QI-000105,2024-03-08,Medical Ward A,Delay in care,No harm,2024-03-20,12,False,False
+SYN-QI-000106,2024-03-30,Medical Ward A,Patient identification,No harm,2024-04-15,16,False,False
+SYN-QI-000107,2024-03-03,Medical Ward A,Patient identification,No harm,2024-03-29,26,False,False
+SYN-QI-000108,2024-03-25,Medical Ward A,Patient identification,No harm,2024-04-06,12,False,False
+SYN-QI-000109,2024-03-28,Medical Ward A,Documentation,Near miss,2024-04-24,27,False,False
+SYN-QI-000110,2024-03-26,Medical Ward A,Pressure injury,No harm,2024-04-07,12,False,False
+SYN-QI-000111,2024-03-22,Medical Ward A,Documentation,No harm,2024-04-02,11,False,False
+SYN-QI-000112,2024-03-06,Surgical Ward B,Fall,No harm,2024-03-26,20,False,False
+SYN-QI-000113,2024-03-16,Surgical Ward B,Medication error,Near miss,2024-03-26,10,False,False
+SYN-QI-000114,2024-03-06,Surgical Ward B,Patient identification,Near miss,2024-03-22,16,False,False
+SYN-QI-000115,2024-03-08,Surgical Ward B,Patient identification,No harm,2024-04-04,27,False,False
+SYN-QI-000116,2024-03-12,Surgical Ward B,Other,No harm,2024-03-28,16,False,False
+SYN-QI-000117,2024-03-07,Surgical Ward B,Documentation,Minor harm,2024-03-18,11,False,False
+SYN-QI-000118,2024-03-13,Surgical Ward B,Patient identification,Moderate harm,2024-03-25,12,True,True
+SYN-QI-000119,2024-03-14,Surgical Ward B,Pressure injury,No harm,2024-04-10,27,False,False
+SYN-QI-000120,2024-03-05,Surgical Ward B,Equipment / device,Near miss,2024-04-04,30,False,False
+SYN-QI-000121,2024-03-27,Surgical Ward B,Other,Moderate harm,2024-04-05,9,True,False
+SYN-QI-000122,2024-03-05,Surgical Ward B,Delay in care,Near miss,2024-03-07,2,False,False
+SYN-QI-000123,2024-03-07,ICU,Delay in care,No harm,2024-04-02,26,False,False
+SYN-QI-000124,2024-03-24,ICU,Equipment / device,No harm,2024-04-11,18,False,False
+SYN-QI-000125,2024-03-26,ICU,Other,No harm,2024-04-17,22,False,False
+SYN-QI-000126,2024-03-24,ICU,Delay in care,Near miss,2024-03-28,4,False,False
+SYN-QI-000127,2024-03-14,ICU,Equipment / device,Minor harm,2024-03-19,5,False,False
+SYN-QI-000128,2024-03-10,ICU,Documentation,No harm,2024-03-15,5,False,False
+SYN-QI-000129,2024-03-31,ICU,Equipment / device,Minor harm,2024-04-09,9,False,False
+SYN-QI-000130,2024-03-09,Emergency Dept,Medication error,No harm,2024-03-24,15,False,False
+SYN-QI-000131,2024-03-11,Emergency Dept,Medication error,No harm,2024-03-21,10,False,False
+SYN-QI-000132,2024-03-27,Emergency Dept,Documentation,Near miss,2024-04-15,19,False,False
+SYN-QI-000133,2024-03-11,Emergency Dept,Delay in care,No harm,2024-04-11,31,False,False
+SYN-QI-000134,2024-03-28,Emergency Dept,Other,Near miss,2024-04-25,28,False,False
+SYN-QI-000135,2024-03-01,Emergency Dept,Delay in care,No harm,2024-03-22,21,False,False
+SYN-QI-000136,2024-03-14,Emergency Dept,Patient identification,Near miss,2024-03-27,13,False,False
+SYN-QI-000137,2024-03-01,Emergency Dept,Documentation,No harm,2024-04-08,38,False,False
+SYN-QI-000138,2024-03-22,Paediatrics,Medication error,Minor harm,2024-04-05,14,False,False
+SYN-QI-000139,2024-03-21,Paediatrics,Medication error,Near miss,2024-03-27,6,False,False
+SYN-QI-000140,2024-03-06,Paediatrics,Medication error,Near miss,2024-04-30,55,False,False
+SYN-QI-000141,2024-03-29,Paediatrics,Pressure injury,No harm,2024-04-16,18,False,False
+SYN-QI-000142,2024-03-10,Paediatrics,Equipment / device,Near miss,2024-04-12,33,False,False
+SYN-QI-000143,2024-03-28,Maternity,Medication error,Near miss,2024-05-04,37,False,False
+SYN-QI-000144,2024-03-18,Maternity,Medication error,No harm,2024-03-30,12,False,False
+SYN-QI-000145,2024-03-16,Maternity,Pressure injury,No harm,2024-04-07,22,False,False
+SYN-QI-000146,2024-03-31,Maternity,Other,No harm,2024-04-21,21,False,False
+SYN-QI-000147,2024-03-23,Maternity,Delay in care,No harm,2024-04-09,17,False,False
+SYN-QI-000148,2024-03-01,Maternity,Other,Near miss,2024-03-13,12,False,False
+SYN-QI-000149,2024-03-16,Maternity,Documentation,Moderate harm,2024-04-21,36,True,False
+SYN-QI-000150,2024-04-01,Medical Ward A,Fall,Near miss,2024-04-18,17,False,False
+SYN-QI-000151,2024-04-26,Medical Ward A,Fall,No harm,2024-05-19,23,False,False
+SYN-QI-000152,2024-04-18,Medical Ward A,Fall,No harm,2024-05-10,22,False,False
+SYN-QI-000153,2024-04-29,Medical Ward A,Fall,Minor harm,2024-06-17,49,False,False
+SYN-QI-000154,2024-04-14,Medical Ward A,Medication error,No harm,2024-04-26,12,False,False
+SYN-QI-000155,2024-04-23,Medical Ward A,Medication error,Minor harm,2024-05-06,13,False,False
+SYN-QI-000156,2024-04-16,Medical Ward A,Medication error,Near miss,2024-04-17,1,False,False
+SYN-QI-000157,2024-04-22,Medical Ward A,Equipment / device,Moderate harm,2024-05-06,14,True,True
+SYN-QI-000158,2024-04-10,Medical Ward A,Pressure injury,Near miss,2024-04-16,6,False,False
+SYN-QI-000159,2024-04-04,Medical Ward A,Pressure injury,Near miss,2024-04-10,6,False,False
+SYN-QI-000160,2024-04-10,Medical Ward A,Documentation,No harm,2024-04-30,20,False,False
+SYN-QI-000161,2024-04-03,Medical Ward A,Other,No harm,2024-05-21,48,False,False
+SYN-QI-000162,2024-04-19,Medical Ward A,Other,No harm,2024-04-26,7,False,False
+SYN-QI-000163,2024-04-07,Medical Ward A,Documentation,Minor harm,2024-04-23,16,False,False
+SYN-QI-000164,2024-04-23,Medical Ward A,Pressure injury,No harm,2024-05-06,13,False,False
+SYN-QI-000165,2024-04-27,Medical Ward A,Other,Near miss,2024-05-10,13,False,False
+SYN-QI-000166,2024-04-20,Surgical Ward B,Fall,Near miss,2024-05-08,18,False,False
+SYN-QI-000167,2024-04-10,Surgical Ward B,Medication error,Near miss,2024-04-11,1,False,False
+SYN-QI-000168,2024-04-27,Surgical Ward B,Medication error,No harm,2024-05-15,18,False,False
+SYN-QI-000169,2024-04-01,Surgical Ward B,Medication error,No harm,2024-04-29,28,False,False
+SYN-QI-000170,2024-04-09,Surgical Ward B,Medication error,Near miss,2024-04-13,4,False,False
+SYN-QI-000171,2024-04-24,Surgical Ward B,Medication error,Minor harm,2024-04-30,6,False,False
+SYN-QI-000172,2024-04-03,Surgical Ward B,Documentation,Minor harm,2024-04-13,10,False,False
+SYN-QI-000173,2024-04-03,Surgical Ward B,Equipment / device,Near miss,2024-04-15,12,False,False
+SYN-QI-000174,2024-04-22,Surgical Ward B,Pressure injury,No harm,2024-05-08,16,False,False
+SYN-QI-000175,2024-04-28,Surgical Ward B,Other,Near miss,2024-05-19,21,False,False
+SYN-QI-000176,2024-04-01,Surgical Ward B,Equipment / device,No harm,2024-04-18,17,False,False
+SYN-QI-000177,2024-04-02,Surgical Ward B,Pressure injury,Near miss,2024-04-08,6,False,False
+SYN-QI-000178,2024-04-20,Surgical Ward B,Equipment / device,Minor harm,2024-04-29,9,False,False
+SYN-QI-000179,2024-04-06,Surgical Ward B,Other,No harm,2024-04-15,9,False,False
+SYN-QI-000180,2024-04-14,Surgical Ward B,Documentation,Moderate harm,2024-04-15,1,True,True
+SYN-QI-000181,2024-04-14,ICU,Fall,Minor harm,2024-04-21,7,False,False
+SYN-QI-000182,2024-04-29,ICU,Pressure injury,Minor harm,2024-07-03,65,False,False
+SYN-QI-000183,2024-04-02,Emergency Dept,Fall,Minor harm,2024-04-14,12,False,False
+SYN-QI-000184,2024-04-09,Emergency Dept,Fall,Near miss,2024-04-25,16,False,False
+SYN-QI-000185,2024-04-27,Emergency Dept,Fall,Minor harm,2024-05-05,8,False,False
+SYN-QI-000186,2024-04-29,Emergency Dept,Medication error,Moderate harm,2024-05-24,25,True,False
+SYN-QI-000187,2024-04-28,Emergency Dept,Medication error,No harm,2024-06-02,35,False,False
+SYN-QI-000188,2024-04-26,Emergency Dept,Delay in care,Near miss,2024-05-10,14,False,False
+SYN-QI-000189,2024-04-07,Emergency Dept,Pressure injury,No harm,2024-04-18,11,False,False
+SYN-QI-000190,2024-04-17,Emergency Dept,Documentation,Severe harm / Sentinel,2024-04-27,10,True,True
+SYN-QI-000191,2024-04-27,Paediatrics,Medication error,Near miss,2024-05-09,12,False,False
+SYN-QI-000192,2024-04-29,Paediatrics,Medication error,No harm,2024-06-03,35,False,False
+SYN-QI-000193,2024-04-27,Paediatrics,Medication error,Near miss,2024-05-23,26,False,False
+SYN-QI-000194,2024-04-11,Paediatrics,Medication error,Near miss,2024-05-01,20,False,False
+SYN-QI-000195,2024-04-13,Paediatrics,Pressure injury,No harm,2024-04-20,7,False,False
+SYN-QI-000196,2024-04-14,Paediatrics,Delay in care,No harm,2024-05-03,19,False,False
+SYN-QI-000197,2024-04-15,Paediatrics,Pressure injury,No harm,2024-04-16,1,False,False
+SYN-QI-000198,2024-04-22,Maternity,Medication error,Minor harm,2024-05-02,10,False,False
+SYN-QI-000199,2024-04-02,Maternity,Medication error,No harm,2024-04-27,25,False,False
+SYN-QI-000200,2024-04-09,Maternity,Medication error,No harm,2024-05-22,43,False,False
+SYN-QI-000201,2024-04-20,Maternity,Patient identification,Near miss,2024-04-26,6,False,False
+SYN-QI-000202,2024-04-04,Maternity,Patient identification,No harm,2024-05-10,36,False,False
+SYN-QI-000203,2024-04-23,Maternity,Equipment / device,No harm,2024-05-25,32,False,False
+SYN-QI-000204,2024-04-01,Maternity,Delay in care,Minor harm,2024-04-20,19,False,False
+SYN-QI-000205,2024-04-02,Maternity,Patient identification,No harm,2024-05-17,45,False,False
+SYN-QI-000206,2024-04-10,Maternity,Documentation,No harm,2024-04-29,19,False,False
+SYN-QI-000207,2024-04-16,Maternity,Delay in care,No harm,2024-05-14,28,False,False
+SYN-QI-000208,2024-04-19,Maternity,Patient identification,No harm,2024-05-14,25,False,False
+SYN-QI-000209,2024-05-29,Medical Ward A,Medication error,Minor harm,2024-06-03,5,False,False
+SYN-QI-000210,2024-05-10,Medical Ward A,Medication error,Minor harm,2024-05-15,5,False,False
+SYN-QI-000211,2024-05-30,Medical Ward A,Medication error,Near miss,2024-07-24,55,False,False
+SYN-QI-000212,2024-05-20,Medical Ward A,Patient identification,Moderate harm,2024-06-19,30,True,True
+SYN-QI-000213,2024-05-06,Medical Ward A,Patient identification,No harm,2024-05-12,6,False,False
+SYN-QI-000214,2024-05-22,Medical Ward A,Equipment / device,No harm,2024-06-11,20,False,False
+SYN-QI-000215,2024-05-12,Medical Ward A,Documentation,No harm,2024-06-05,24,False,False
+SYN-QI-000216,2024-05-06,Medical Ward A,Equipment / device,Near miss,2024-05-30,24,False,False
+SYN-QI-000217,2024-05-06,Medical Ward A,Documentation,Minor harm,2024-05-16,10,False,False
+SYN-QI-000218,2024-05-25,Medical Ward A,Other,No harm,2024-06-21,27,False,False
+SYN-QI-000219,2024-05-26,Medical Ward A,Pressure injury,Minor harm,2024-06-01,6,False,False
+SYN-QI-000220,2024-05-29,Surgical Ward B,Fall,Near miss,2024-07-13,45,False,False
+SYN-QI-000221,2024-05-30,Surgical Ward B,Medication error,No harm,2024-06-07,8,False,False
+SYN-QI-000222,2024-05-14,Surgical Ward B,Medication error,Near miss,2024-07-18,65,False,False
+SYN-QI-000223,2024-05-04,Surgical Ward B,Medication error,Moderate harm,2024-05-31,27,True,True
+SYN-QI-000224,2024-05-29,Surgical Ward B,Medication error,Near miss,2024-06-23,25,False,False
+SYN-QI-000225,2024-05-05,Surgical Ward B,Equipment / device,Near miss,2024-05-08,3,False,False
+SYN-QI-000226,2024-05-10,Surgical Ward B,Patient identification,Near miss,2024-05-17,7,False,False
+SYN-QI-000227,2024-05-15,Surgical Ward B,Pressure injury,Minor harm,2024-05-19,4,False,False
+SYN-QI-000228,2024-05-01,Surgical Ward B,Patient identification,No harm,2024-06-17,47,False,False
+SYN-QI-000229,2024-05-15,Surgical Ward B,Patient identification,Near miss,2024-06-26,42,False,False
+SYN-QI-000230,2024-05-07,Surgical Ward B,Other,Near miss,2024-06-20,44,False,False
+SYN-QI-000231,2024-05-04,Surgical Ward B,Equipment / device,No harm,2024-05-18,14,False,False
+SYN-QI-000232,2024-05-16,Surgical Ward B,Equipment / device,Near miss,2024-06-08,23,False,False
+SYN-QI-000233,2024-05-14,Surgical Ward B,Equipment / device,Near miss,2024-05-31,17,False,False
+SYN-QI-000234,2024-05-17,Surgical Ward B,Patient identification,No harm,2024-05-19,2,False,False
+SYN-QI-000235,2024-05-05,ICU,Medication error,Minor harm,2024-05-12,7,False,False
+SYN-QI-000236,2024-05-05,ICU,Medication error,No harm,2024-06-01,27,False,False
+SYN-QI-000237,2024-05-25,ICU,Other,No harm,2024-05-30,5,False,False
+SYN-QI-000238,2024-05-04,ICU,Pressure injury,Moderate harm,2024-06-01,28,True,True
+SYN-QI-000239,2024-05-06,ICU,Pressure injury,Near miss,2024-07-21,76,False,False
+SYN-QI-000240,2024-05-31,Emergency Dept,Medication error,Minor harm,2024-06-02,2,False,False
+SYN-QI-000241,2024-05-25,Emergency Dept,Medication error,No harm,2024-06-09,15,False,False
+SYN-QI-000242,2024-05-19,Emergency Dept,Pressure injury,Minor harm,2024-06-30,42,False,False
+SYN-QI-000243,2024-05-11,Emergency Dept,Other,Near miss,2024-05-29,18,False,False
+SYN-QI-000244,2024-05-18,Emergency Dept,Delay in care,Moderate harm,2024-06-17,30,True,True
+SYN-QI-000245,2024-05-30,Emergency Dept,Patient identification,Near miss,2024-05-30,0,False,False
+SYN-QI-000246,2024-05-14,Emergency Dept,Other,Near miss,2024-06-27,44,False,False
+SYN-QI-000247,2024-05-31,Paediatrics,Medication error,Near miss,2024-06-15,15,False,False
+SYN-QI-000248,2024-05-14,Paediatrics,Medication error,No harm,2024-05-17,3,False,False
+SYN-QI-000249,2024-05-23,Paediatrics,Medication error,Minor harm,2024-06-13,21,False,False
+SYN-QI-000250,2024-05-07,Paediatrics,Medication error,No harm,2024-05-24,17,False,False
+SYN-QI-000251,2024-05-27,Paediatrics,Documentation,No harm,2024-06-23,27,False,False
+SYN-QI-000252,2024-05-26,Paediatrics,Equipment / device,No harm,2024-06-12,17,False,False
+SYN-QI-000253,2024-05-12,Maternity,Medication error,Near miss,2024-05-20,8,False,False
+SYN-QI-000254,2024-05-23,Maternity,Medication error,Near miss,2024-05-30,7,False,False
+SYN-QI-000255,2024-05-09,Maternity,Delay in care,Near miss,2024-05-27,18,False,False
+SYN-QI-000256,2024-05-17,Maternity,Delay in care,Minor harm,2024-05-26,9,False,False
+SYN-QI-000257,2024-05-13,Maternity,Documentation,Near miss,2024-06-02,20,False,False
+SYN-QI-000258,2024-05-15,Maternity,Equipment / device,Near miss,2024-05-29,14,False,False
+SYN-QI-000259,2024-05-14,Maternity,Documentation,Minor harm,2024-05-20,6,False,False
+SYN-QI-000260,2024-06-14,Medical Ward A,Fall,No harm,2024-06-17,3,False,False
+SYN-QI-000261,2024-06-02,Medical Ward A,Fall,Near miss,2024-06-13,11,False,False
+SYN-QI-000262,2024-06-13,Medical Ward A,Fall,Near miss,2024-07-06,23,False,False
+SYN-QI-000263,2024-06-17,Medical Ward A,Fall,No harm,2024-06-23,6,False,False
+SYN-QI-000264,2024-06-07,Medical Ward A,Medication error,No harm,2024-06-23,16,False,False
+SYN-QI-000265,2024-06-21,Medical Ward A,Medication error,Minor harm,2024-06-29,8,False,False
+SYN-QI-000266,2024-06-30,Medical Ward A,Medication error,No harm,2024-07-11,11,False,False
+SYN-QI-000267,2024-06-21,Medical Ward A,Medication error,No harm,2024-07-12,21,False,False
+SYN-QI-000268,2024-06-20,Medical Ward A,Medication error,No harm,2024-07-26,36,False,False
+SYN-QI-000269,2024-06-28,Medical Ward A,Equipment / device,Near miss,2024-07-16,18,False,False
+SYN-QI-000270,2024-06-27,Medical Ward A,Delay in care,Moderate harm,2024-07-10,13,True,True
+SYN-QI-000271,2024-06-06,Medical Ward A,Patient identification,No harm,2024-06-26,20,False,False
+SYN-QI-000272,2024-06-01,Medical Ward A,Equipment / device,Near miss,2024-06-27,26,False,False
+SYN-QI-000273,2024-06-17,Medical Ward A,Delay in care,No harm,2024-07-13,26,False,False
+SYN-QI-000274,2024-06-01,Medical Ward A,Equipment / device,No harm,2024-06-03,2,False,False
+SYN-QI-000275,2024-06-12,Medical Ward A,Patient identification,No harm,2024-06-19,7,False,False
+SYN-QI-000276,2024-06-24,Medical Ward A,Documentation,No harm,2024-07-02,8,False,False
+SYN-QI-000277,2024-06-22,Medical Ward A,Documentation,No harm,2024-07-28,36,False,False
+SYN-QI-000278,2024-06-08,Surgical Ward B,Fall,Near miss,2024-06-17,9,False,False
+SYN-QI-000279,2024-06-18,Surgical Ward B,Fall,No harm,2024-07-15,27,False,False
+SYN-QI-000280,2024-06-27,Surgical Ward B,Patient identification,Near miss,2024-07-27,30,False,False
+SYN-QI-000281,2024-06-05,Surgical Ward B,Documentation,No harm,2024-06-12,7,False,False
+SYN-QI-000282,2024-06-11,Surgical Ward B,Equipment / device,Minor harm,2024-06-12,1,False,False
+SYN-QI-000283,2024-06-26,Surgical Ward B,Patient identification,Minor harm,2024-06-30,4,False,False
+SYN-QI-000284,2024-06-25,Surgical Ward B,Delay in care,Moderate harm,2024-07-07,12,True,True
+SYN-QI-000285,2024-06-11,Surgical Ward B,Equipment / device,No harm,2024-06-17,6,False,False
+SYN-QI-000286,2024-06-03,Surgical Ward B,Pressure injury,Near miss,2024-06-07,4,False,False
+SYN-QI-000287,2024-06-04,ICU,Equipment / device,Severe harm / Sentinel,2024-07-10,36,True,False
+SYN-QI-000288,2024-06-20,ICU,Delay in care,Near miss,2024-06-27,7,False,False
+SYN-QI-000289,2024-06-16,ICU,Delay in care,No harm,2024-06-28,12,False,False
+SYN-QI-000290,2024-06-11,ICU,Other,Minor harm,2024-06-16,5,False,False
+SYN-QI-000291,2024-06-03,Emergency Dept,Medication error,Moderate harm,2024-06-18,15,True,True
+SYN-QI-000292,2024-06-11,Emergency Dept,Medication error,Near miss,2024-06-24,13,False,False
+SYN-QI-000293,2024-06-28,Emergency Dept,Other,Moderate harm,2024-07-11,13,True,True
+SYN-QI-000294,2024-06-13,Emergency Dept,Patient identification,No harm,2024-07-04,21,False,False
+SYN-QI-000295,2024-06-18,Emergency Dept,Patient identification,Minor harm,2024-06-27,9,False,False
+SYN-QI-000296,2024-06-05,Emergency Dept,Delay in care,No harm,2024-06-21,16,False,False
+SYN-QI-000297,2024-06-24,Emergency Dept,Pressure injury,No harm,2024-07-19,25,False,False
+SYN-QI-000298,2024-06-20,Emergency Dept,Documentation,No harm,2024-08-01,42,False,False
+SYN-QI-000299,2024-06-09,Emergency Dept,Documentation,Minor harm,2024-07-19,40,False,False
+SYN-QI-000300,2024-06-12,Paediatrics,Fall,Minor harm,2024-06-28,16,False,False
+SYN-QI-000301,2024-06-28,Paediatrics,Medication error,No harm,2024-07-24,26,False,False
+SYN-QI-000302,2024-06-09,Paediatrics,Medication error,Near miss,2024-06-25,16,False,False
+SYN-QI-000303,2024-06-07,Paediatrics,Other,No harm,2024-06-13,6,False,False
+SYN-QI-000304,2024-06-04,Paediatrics,Patient identification,Minor harm,2024-06-19,15,False,False
+SYN-QI-000305,2024-06-30,Paediatrics,Patient identification,No harm,2024-07-12,12,False,False
+SYN-QI-000306,2024-06-05,Paediatrics,Pressure injury,Moderate harm,2024-06-07,2,True,True
+SYN-QI-000307,2024-06-16,Paediatrics,Documentation,No harm,2024-06-23,7,False,False
+SYN-QI-000308,2024-06-14,Maternity,Fall,Minor harm,2024-07-12,28,False,False
+SYN-QI-000309,2024-06-20,Maternity,Medication error,No harm,2024-06-28,8,False,False
+SYN-QI-000310,2024-06-13,Maternity,Medication error,Minor harm,2024-06-29,16,False,False
+SYN-QI-000311,2024-06-17,Maternity,Medication error,Near miss,2024-08-06,50,False,False
+SYN-QI-000312,2024-06-23,Maternity,Patient identification,Near miss,2024-06-28,5,False,False
+SYN-QI-000313,2024-06-03,Maternity,Delay in care,Minor harm,2024-08-18,76,False,False
+SYN-QI-000314,2024-06-27,Maternity,Patient identification,No harm,2024-07-15,18,False,False
+SYN-QI-000315,2024-06-30,Maternity,Equipment / device,Near miss,2024-07-12,12,False,False
+SYN-QI-000316,2024-06-19,Maternity,Documentation,Minor harm,2024-07-17,28,False,False
+SYN-QI-000317,2024-07-23,Medical Ward A,Fall,No harm,2024-08-30,38,False,False
+SYN-QI-000318,2024-07-30,Medical Ward A,Fall,Near miss,2024-08-08,9,False,False
+SYN-QI-000319,2024-07-04,Medical Ward A,Medication error,Near miss,2024-07-22,18,False,False
+SYN-QI-000320,2024-07-22,Medical Ward A,Patient identification,No harm,2024-07-31,9,False,False
+SYN-QI-000321,2024-07-12,Medical Ward A,Delay in care,No harm,2024-07-21,9,False,False
+SYN-QI-000322,2024-07-11,Medical Ward A,Documentation,Severe harm / Sentinel,2024-08-26,46,True,False
+SYN-QI-000323,2024-07-29,Medical Ward A,Delay in care,No harm,2024-08-21,23,False,False
+SYN-QI-000324,2024-07-27,Medical Ward A,Equipment / device,Near miss,2024-08-03,7,False,False
+SYN-QI-000325,2024-07-17,Surgical Ward B,Fall,Minor harm,2024-08-14,28,False,False
+SYN-QI-000326,2024-07-23,Surgical Ward B,Fall,No harm,2024-07-24,1,False,False
+SYN-QI-000327,2024-07-09,Surgical Ward B,Medication error,No harm,2024-07-21,12,False,False
+SYN-QI-000328,2024-07-20,Surgical Ward B,Medication error,No harm,2024-09-02,44,False,False
+SYN-QI-000329,2024-07-30,Surgical Ward B,Medication error,No harm,2024-08-12,13,False,False
+SYN-QI-000330,2024-07-22,Surgical Ward B,Medication error,Minor harm,2024-07-29,7,False,False
+SYN-QI-000331,2024-07-16,Surgical Ward B,Patient identification,No harm,2024-08-16,31,False,False
+SYN-QI-000332,2024-07-23,Surgical Ward B,Pressure injury,Severe harm / Sentinel,2024-08-06,14,True,False
+SYN-QI-000333,2024-07-23,Surgical Ward B,Equipment / device,Minor harm,2024-08-02,10,False,False
+SYN-QI-000334,2024-07-17,Surgical Ward B,Patient identification,Near miss,2024-08-14,28,False,False
+SYN-QI-000335,2024-07-29,Surgical Ward B,Pressure injury,Moderate harm,2024-08-24,26,True,True
+SYN-QI-000336,2024-07-05,Surgical Ward B,Other,No harm,2024-08-07,33,False,False
+SYN-QI-000337,2024-07-09,ICU,Fall,Near miss,2024-08-01,23,False,False
+SYN-QI-000338,2024-07-21,ICU,Other,Near miss,2024-07-23,2,False,False
+SYN-QI-000339,2024-07-09,ICU,Documentation,Minor harm,2024-07-22,13,False,False
+SYN-QI-000340,2024-07-21,ICU,Documentation,Near miss,2024-07-30,9,False,False
+SYN-QI-000341,2024-07-19,ICU,Other,Severe harm / Sentinel,2024-08-29,41,True,True
+SYN-QI-000342,2024-07-12,Emergency Dept,Fall,No harm,2024-07-20,8,False,False
+SYN-QI-000343,2024-07-25,Emergency Dept,Fall,No harm,2024-07-31,6,False,False
+SYN-QI-000344,2024-07-18,Emergency Dept,Medication error,Moderate harm,2024-09-28,72,True,True
+SYN-QI-000345,2024-07-16,Emergency Dept,Medication error,Near miss,2024-07-22,6,False,False
+SYN-QI-000346,2024-07-22,Emergency Dept,Medication error,Near miss,2024-09-13,53,False,False
+SYN-QI-000347,2024-07-28,Emergency Dept,Delay in care,No harm,2024-08-18,21,False,False
+SYN-QI-000348,2024-07-12,Emergency Dept,Documentation,Near miss,2024-07-30,18,False,False
+SYN-QI-000349,2024-07-24,Emergency Dept,Documentation,Minor harm,2024-07-26,2,False,False
+SYN-QI-000350,2024-07-25,Paediatrics,Fall,No harm,2024-08-06,12,False,False
+SYN-QI-000351,2024-07-03,Paediatrics,Medication error,No harm,2024-08-12,40,False,False
+SYN-QI-000352,2024-07-22,Paediatrics,Medication error,Moderate harm,2024-08-18,27,True,True
+SYN-QI-000353,2024-07-27,Paediatrics,Medication error,Near miss,2024-08-05,9,False,False
+SYN-QI-000354,2024-07-23,Paediatrics,Pressure injury,Near miss,2024-07-30,7,False,False
+SYN-QI-000355,2024-07-26,Paediatrics,Patient identification,Near miss,2024-09-18,54,False,False
+SYN-QI-000356,2024-07-23,Paediatrics,Pressure injury,Near miss,2024-08-03,11,False,False
+SYN-QI-000357,2024-07-18,Paediatrics,Equipment / device,No harm,2024-07-25,7,False,False
+SYN-QI-000358,2024-07-23,Maternity,Medication error,No harm,2024-08-24,32,False,False
+SYN-QI-000359,2024-07-10,Maternity,Medication error,No harm,2024-08-13,34,False,False
+SYN-QI-000360,2024-07-26,Maternity,Medication error,Moderate harm,2024-08-07,12,True,True
+SYN-QI-000361,2024-07-23,Maternity,Documentation,Near miss,2024-08-02,10,False,False
+SYN-QI-000362,2024-07-13,Maternity,Pressure injury,Near miss,2024-08-01,19,False,False
+SYN-QI-000363,2024-07-24,Maternity,Delay in care,Near miss,2024-08-27,34,False,False
+SYN-QI-000364,2024-08-30,Medical Ward A,Fall,No harm,2024-09-29,30,False,False
+SYN-QI-000365,2024-08-20,Medical Ward A,Fall,Minor harm,2024-09-01,12,False,False
+SYN-QI-000366,2024-08-30,Medical Ward A,Medication error,Near miss,2024-09-30,31,False,False
+SYN-QI-000367,2024-08-08,Medical Ward A,Medication error,No harm,2024-09-03,26,False,False
+SYN-QI-000368,2024-08-27,Medical Ward A,Medication error,Minor harm,2024-09-07,11,False,False
+SYN-QI-000369,2024-08-20,Medical Ward A,Other,No harm,2024-09-27,38,False,False
+SYN-QI-000370,2024-08-28,Medical Ward A,Documentation,Near miss,2024-09-16,19,False,False
+SYN-QI-000371,2024-08-22,Medical Ward A,Other,No harm,2024-09-15,24,False,False
+SYN-QI-000372,2024-08-09,Medical Ward A,Documentation,Near miss,2024-08-28,19,False,False
+SYN-QI-000373,2024-08-22,Medical Ward A,Other,No harm,2024-09-19,28,False,False
+SYN-QI-000374,2024-08-05,Medical Ward A,Other,Minor harm,2024-08-17,12,False,False
+SYN-QI-000375,2024-08-24,Medical Ward A,Patient identification,No harm,2024-09-19,26,False,False
+SYN-QI-000376,2024-08-26,Medical Ward A,Pressure injury,No harm,2024-09-02,7,False,False
+SYN-QI-000377,2024-08-07,Medical Ward A,Delay in care,Near miss,2024-09-03,27,False,False
+SYN-QI-000378,2024-08-25,Medical Ward A,Patient identification,No harm,2024-09-06,12,False,False
+SYN-QI-000379,2024-08-29,Medical Ward A,Documentation,Minor harm,2024-09-23,25,False,False
+SYN-QI-000380,2024-08-29,Medical Ward A,Delay in care,No harm,2024-09-04,6,False,False
+SYN-QI-000381,2024-08-14,Medical Ward A,Other,Near miss,2024-08-23,9,False,False
+SYN-QI-000382,2024-08-23,Surgical Ward B,Fall,No harm,2024-09-09,17,False,False
+SYN-QI-000383,2024-08-21,Surgical Ward B,Fall,Minor harm,2024-09-16,26,False,False
+SYN-QI-000384,2024-08-09,Surgical Ward B,Medication error,Moderate harm,2024-09-29,51,True,True
+SYN-QI-000385,2024-08-01,Surgical Ward B,Medication error,No harm,2024-08-23,22,False,False
+SYN-QI-000386,2024-08-02,Surgical Ward B,Medication error,No harm,2024-08-10,8,False,False
+SYN-QI-000387,2024-08-14,Surgical Ward B,Medication error,Near miss,2024-08-18,4,False,False
+SYN-QI-000388,2024-08-28,Surgical Ward B,Medication error,Severe harm / Sentinel,2024-09-12,15,True,True
+SYN-QI-000389,2024-08-14,Surgical Ward B,Equipment / device,Near miss,2024-08-22,8,False,False
+SYN-QI-000390,2024-08-10,Surgical Ward B,Delay in care,Moderate harm,2024-09-10,31,True,False
+SYN-QI-000391,2024-08-20,Surgical Ward B,Patient identification,No harm,2024-09-16,27,False,False
+SYN-QI-000392,2024-08-23,Surgical Ward B,Documentation,No harm,2024-09-26,34,False,False
+SYN-QI-000393,2024-08-08,Surgical Ward B,Documentation,Near miss,2024-08-25,17,False,False
+SYN-QI-000394,2024-08-08,Surgical Ward B,Delay in care,Near miss,2024-08-29,21,False,False
+SYN-QI-000395,2024-08-10,ICU,Fall,Near miss,2024-08-11,1,False,False
+SYN-QI-000396,2024-08-24,ICU,Fall,Severe harm / Sentinel,2024-09-28,35,True,True
+SYN-QI-000397,2024-08-23,ICU,Pressure injury,Near miss,2024-09-06,14,False,False
+SYN-QI-000398,2024-08-26,ICU,Delay in care,Moderate harm,2024-09-22,27,True,True
+SYN-QI-000399,2024-08-18,ICU,Patient identification,Minor harm,2024-08-30,12,False,False
+SYN-QI-000400,2024-08-15,Emergency Dept,Medication error,Near miss,2024-08-28,13,False,False
+SYN-QI-000401,2024-08-06,Emergency Dept,Medication error,No harm,2024-08-15,9,False,False
+SYN-QI-000402,2024-08-22,Emergency Dept,Equipment / device,No harm,2024-10-04,43,False,False
+SYN-QI-000403,2024-08-31,Emergency Dept,Pressure injury,No harm,2024-10-15,45,False,False
+SYN-QI-000404,2024-08-18,Emergency Dept,Other,Near miss,2024-09-07,20,False,False
+SYN-QI-000405,2024-08-02,Emergency Dept,Other,Minor harm,2024-08-07,5,False,False
+SYN-QI-000406,2024-08-13,Emergency Dept,Equipment / device,Near miss,2024-09-11,29,False,False
+SYN-QI-000407,2024-08-20,Emergency Dept,Documentation,No harm,2024-10-06,47,False,False
+SYN-QI-000408,2024-08-23,Emergency Dept,Other,No harm,2024-09-04,12,False,False
+SYN-QI-000409,2024-08-28,Paediatrics,Medication error,No harm,2024-09-07,10,False,False
+SYN-QI-000410,2024-08-25,Paediatrics,Documentation,No harm,2024-09-15,21,False,False
+SYN-QI-000411,2024-08-27,Paediatrics,Pressure injury,Near miss,2024-09-14,18,False,False
+SYN-QI-000412,2024-08-15,Paediatrics,Equipment / device,Near miss,2024-08-29,14,False,False
+SYN-QI-000413,2024-08-04,Maternity,Medication error,No harm,2024-08-31,27,False,False
+SYN-QI-000414,2024-08-28,Maternity,Medication error,No harm,2024-10-03,36,False,False
+SYN-QI-000415,2024-08-23,Maternity,Medication error,Near miss,2024-10-03,41,False,False
+SYN-QI-000416,2024-08-08,Maternity,Medication error,No harm,2024-08-26,18,False,False
+SYN-QI-000417,2024-08-06,Maternity,Equipment / device,Minor harm,2024-09-01,26,False,False
+SYN-QI-000418,2024-08-21,Maternity,Pressure injury,Minor harm,2024-09-13,23,False,False
+SYN-QI-000419,2024-08-09,Maternity,Pressure injury,Minor harm,2024-09-01,23,False,False
+SYN-QI-000420,2024-09-30,Medical Ward A,Fall,No harm,2024-10-26,26,False,False
+SYN-QI-000421,2024-09-03,Medical Ward A,Fall,Near miss,2024-10-09,36,False,False
+SYN-QI-000422,2024-09-15,Medical Ward A,Medication error,No harm,2024-09-17,2,False,False
+SYN-QI-000423,2024-09-26,Medical Ward A,Documentation,No harm,2024-10-13,17,False,False
+SYN-QI-000424,2024-09-05,Medical Ward A,Equipment / device,No harm,2024-09-25,20,False,False
+SYN-QI-000425,2024-09-11,Medical Ward A,Pressure injury,Minor harm,2024-10-04,23,False,False
+SYN-QI-000426,2024-09-28,Medical Ward A,Patient identification,No harm,2024-11-22,55,False,False
+SYN-QI-000427,2024-09-15,Medical Ward A,Pressure injury,Near miss,2024-09-20,5,False,False
+SYN-QI-000428,2024-09-21,Medical Ward A,Equipment / device,Minor harm,2024-09-26,5,False,False
+SYN-QI-000429,2024-09-12,Medical Ward A,Other,Near miss,2024-09-30,18,False,False
+SYN-QI-000430,2024-09-09,Surgical Ward B,Medication error,No harm,2024-09-18,9,False,False
+SYN-QI-000431,2024-09-17,Surgical Ward B,Delay in care,Moderate harm,2024-09-23,6,True,True
+SYN-QI-000432,2024-09-08,Surgical Ward B,Equipment / device,Minor harm,2024-09-22,14,False,False
+SYN-QI-000433,2024-09-20,Surgical Ward B,Patient identification,No harm,2024-11-11,52,False,False
+SYN-QI-000434,2024-09-08,Surgical Ward B,Patient identification,Near miss,2024-10-20,42,False,False
+SYN-QI-000435,2024-09-03,Surgical Ward B,Patient identification,Severe harm / Sentinel,2024-09-21,18,True,True
+SYN-QI-000436,2024-09-25,Surgical Ward B,Pressure injury,No harm,2024-10-09,14,False,False
+SYN-QI-000437,2024-09-14,Surgical Ward B,Pressure injury,No harm,2024-09-20,6,False,False
+SYN-QI-000438,2024-09-13,ICU,Fall,Near miss,2024-10-12,29,False,False
+SYN-QI-000439,2024-09-17,ICU,Fall,Near miss,2024-09-24,7,False,False
+SYN-QI-000440,2024-09-10,ICU,Medication error,No harm,2024-09-19,9,False,False
+SYN-QI-000441,2024-09-17,ICU,Delay in care,No harm,2024-10-03,16,False,False
+SYN-QI-000442,2024-09-04,ICU,Other,Near miss,2024-09-12,8,False,False
+SYN-QI-000443,2024-09-11,ICU,Documentation,Near miss,2024-09-14,3,False,False
+SYN-QI-000444,2024-09-03,Emergency Dept,Fall,No harm,2024-10-20,47,False,False
+SYN-QI-000445,2024-09-12,Emergency Dept,Medication error,Moderate harm,2024-10-14,32,True,True
+SYN-QI-000446,2024-09-16,Emergency Dept,Medication error,No harm,2024-09-26,10,False,False
+SYN-QI-000447,2024-09-23,Emergency Dept,Medication error,No harm,2024-10-19,26,False,False
+SYN-QI-000448,2024-09-14,Emergency Dept,Medication error,No harm,2024-09-28,14,False,False
+SYN-QI-000449,2024-09-25,Emergency Dept,Equipment / device,Minor harm,2024-10-16,21,False,False
+SYN-QI-000450,2024-09-05,Emergency Dept,Delay in care,No harm,2024-10-02,27,False,False
+SYN-QI-000451,2024-09-24,Emergency Dept,Equipment / device,Near miss,2024-10-10,16,False,False
+SYN-QI-000452,2024-09-25,Emergency Dept,Equipment / device,Near miss,2024-10-06,11,False,False
+SYN-QI-000453,2024-09-14,Emergency Dept,Pressure injury,Moderate harm,2024-09-24,10,True,True
+SYN-QI-000454,2024-09-02,Emergency Dept,Other,No harm,2024-09-28,26,False,False
+SYN-QI-000455,2024-09-15,Paediatrics,Medication error,Near miss,2024-10-06,21,False,False
+SYN-QI-000456,2024-09-18,Paediatrics,Equipment / device,Near miss,2024-09-27,9,False,False
+SYN-QI-000457,2024-09-27,Paediatrics,Documentation,No harm,2024-10-28,31,False,False
+SYN-QI-000458,2024-09-25,Maternity,Medication error,No harm,2024-10-05,10,False,False
+SYN-QI-000459,2024-09-18,Maternity,Delay in care,Near miss,2024-10-03,15,False,False
+SYN-QI-000460,2024-09-03,Maternity,Equipment / device,No harm,2024-09-07,4,False,False
+SYN-QI-000461,2024-09-30,Maternity,Other,No harm,2024-10-16,16,False,False
+SYN-QI-000462,2024-09-09,Maternity,Other,No harm,2024-09-27,18,False,False
+SYN-QI-000463,2024-09-29,Maternity,Equipment / device,No harm,2024-11-02,34,False,False
+SYN-QI-000464,2024-09-26,Maternity,Other,Near miss,2024-10-27,31,False,False
+SYN-QI-000465,2024-09-22,Maternity,Documentation,Near miss,2024-09-28,6,False,False
+SYN-QI-000466,2024-09-04,Maternity,Other,Near miss,2024-09-25,21,False,False
+SYN-QI-000467,2024-09-24,Maternity,Other,No harm,2024-09-25,1,False,False
+SYN-QI-000468,2024-10-28,Medical Ward A,Fall,No harm,2024-11-08,11,False,False
+SYN-QI-000469,2024-10-08,Medical Ward A,Fall,Minor harm,2024-12-10,63,False,False
+SYN-QI-000470,2024-10-11,Medical Ward A,Fall,Minor harm,2024-11-07,27,False,False
+SYN-QI-000471,2024-10-23,Medical Ward A,Fall,No harm,2024-11-06,14,False,False
+SYN-QI-000472,2024-10-07,Medical Ward A,Fall,Near miss,2024-11-02,26,False,False
+SYN-QI-000473,2024-10-07,Medical Ward A,Fall,Near miss,2024-10-16,9,False,False
+SYN-QI-000474,2024-10-01,Medical Ward A,Medication error,No harm,2024-10-07,6,False,False
+SYN-QI-000475,2024-10-26,Medical Ward A,Medication error,Minor harm,2024-11-29,34,False,False
+SYN-QI-000476,2024-10-14,Medical Ward A,Medication error,No harm,2024-10-30,16,False,False
+SYN-QI-000477,2024-10-30,Medical Ward A,Medication error,Near miss,2024-11-16,17,False,False
+SYN-QI-000478,2024-10-09,Medical Ward A,Other,Near miss,2024-10-26,17,False,False
+SYN-QI-000479,2024-10-17,Medical Ward A,Delay in care,No harm,2024-12-15,59,False,False
+SYN-QI-000480,2024-10-02,Medical Ward A,Other,Severe harm / Sentinel,2024-10-26,24,True,False
+SYN-QI-000481,2024-10-01,Medical Ward A,Documentation,Near miss,2024-10-23,22,False,False
+SYN-QI-000482,2024-10-02,Medical Ward A,Pressure injury,Near miss,2024-11-10,39,False,False
+SYN-QI-000483,2024-10-09,Medical Ward A,Documentation,Near miss,2024-10-30,21,False,False
+SYN-QI-000484,2024-10-19,Medical Ward A,Equipment / device,Near miss,2024-10-26,7,False,False
+SYN-QI-000485,2024-10-11,Medical Ward A,Pressure injury,Near miss,2024-10-27,16,False,False
+SYN-QI-000486,2024-10-14,Medical Ward A,Equipment / device,Minor harm,2025-01-16,94,False,False
+SYN-QI-000487,2024-10-17,Medical Ward A,Patient identification,No harm,2024-10-17,0,False,False
+SYN-QI-000488,2024-10-22,Surgical Ward B,Fall,Moderate harm,2024-10-31,9,True,True
+SYN-QI-000489,2024-10-06,Surgical Ward B,Fall,No harm,2024-10-23,17,False,False
+SYN-QI-000490,2024-10-11,Surgical Ward B,Medication error,Minor harm,2024-11-01,21,False,False
+SYN-QI-000491,2024-10-10,Surgical Ward B,Medication error,Minor harm,2024-10-25,15,False,False
+SYN-QI-000492,2024-10-16,Surgical Ward B,Medication error,Near miss,2024-10-23,7,False,False
+SYN-QI-000493,2024-10-09,Surgical Ward B,Medication error,Minor harm,2024-10-24,15,False,False
+SYN-QI-000494,2024-10-29,Surgical Ward B,Equipment / device,No harm,2024-11-15,17,False,False
+SYN-QI-000495,2024-10-25,Surgical Ward B,Patient identification,Near miss,2024-11-24,30,False,False
+SYN-QI-000496,2024-10-12,Surgical Ward B,Patient identification,Minor harm,2024-10-16,4,False,False
+SYN-QI-000497,2024-10-06,Surgical Ward B,Pressure injury,No harm,2024-10-28,22,False,False
+SYN-QI-000498,2024-10-21,Surgical Ward B,Other,Minor harm,2024-11-28,38,False,False
+SYN-QI-000499,2024-10-28,Surgical Ward B,Patient identification,No harm,2024-11-11,14,False,False
+SYN-QI-000500,2024-10-03,ICU,Medication error,Minor harm,2024-10-30,27,False,False
+SYN-QI-000501,2024-10-20,ICU,Medication error,Near miss,2024-11-08,19,False,False
+SYN-QI-000502,2024-10-21,ICU,Documentation,No harm,2024-11-13,23,False,False
+SYN-QI-000503,2024-10-14,ICU,Other,Near miss,2024-10-27,13,False,False
+SYN-QI-000504,2024-10-19,ICU,Other,Minor harm,2024-11-05,17,False,False
+SYN-QI-000505,2024-10-01,Emergency Dept,Fall,Near miss,2024-10-08,7,False,False
+SYN-QI-000506,2024-10-17,Emergency Dept,Equipment / device,No harm,2024-10-22,5,False,False
+SYN-QI-000507,2024-10-07,Emergency Dept,Documentation,No harm,2024-11-08,32,False,False
+SYN-QI-000508,2024-10-05,Emergency Dept,Other,No harm,2024-10-10,5,False,False
+SYN-QI-000509,2024-10-26,Emergency Dept,Documentation,Minor harm,2024-10-29,3,False,False
+SYN-QI-000510,2024-10-14,Emergency Dept,Patient identification,Near miss,2024-10-29,15,False,False
+SYN-QI-000511,2024-10-10,Emergency Dept,Equipment / device,Near miss,2024-10-20,10,False,False
+SYN-QI-000512,2024-10-07,Emergency Dept,Equipment / device,No harm,2024-10-18,11,False,False
+SYN-QI-000513,2024-10-09,Emergency Dept,Patient identification,No harm,2024-11-01,23,False,False
+SYN-QI-000514,2024-10-23,Paediatrics,Fall,No harm,2024-11-12,20,False,False
+SYN-QI-000515,2024-10-20,Paediatrics,Medication error,Minor harm,2024-11-30,41,False,False
+SYN-QI-000516,2024-10-29,Paediatrics,Medication error,Near miss,2024-11-10,12,False,False
+SYN-QI-000517,2024-10-07,Paediatrics,Medication error,Minor harm,2024-10-28,21,False,False
+SYN-QI-000518,2024-10-29,Paediatrics,Medication error,Minor harm,2024-11-10,12,False,False
+SYN-QI-000519,2024-10-28,Paediatrics,Delay in care,No harm,2024-11-11,14,False,False
+SYN-QI-000520,2024-10-27,Paediatrics,Delay in care,Minor harm,2024-11-20,24,False,False
+SYN-QI-000521,2024-10-27,Paediatrics,Other,No harm,2024-11-13,17,False,False
+SYN-QI-000522,2024-10-31,Paediatrics,Patient identification,Moderate harm,2024-11-15,15,True,True
+SYN-QI-000523,2024-10-05,Paediatrics,Pressure injury,Minor harm,2024-10-20,15,False,False
+SYN-QI-000524,2024-10-15,Paediatrics,Documentation,No harm,2024-10-29,14,False,False
+SYN-QI-000525,2024-10-15,Paediatrics,Other,No harm,2024-10-31,16,False,False
+SYN-QI-000526,2024-10-01,Paediatrics,Patient identification,Near miss,2024-10-07,6,False,False
+SYN-QI-000527,2024-10-21,Paediatrics,Patient identification,No harm,2024-11-09,19,False,False
+SYN-QI-000528,2024-10-02,Maternity,Medication error,Minor harm,2024-10-20,18,False,False
+SYN-QI-000529,2024-10-29,Maternity,Medication error,Moderate harm,2024-11-20,22,True,True
+SYN-QI-000530,2024-10-15,Maternity,Equipment / device,No harm,2024-10-21,6,False,False
+SYN-QI-000531,2024-10-22,Maternity,Other,Minor harm,2024-11-03,12,False,False
+SYN-QI-000532,2024-10-25,Maternity,Equipment / device,Minor harm,2024-12-23,59,False,False
+SYN-QI-000533,2024-10-29,Maternity,Other,Near miss,2024-11-12,14,False,False
+SYN-QI-000534,2024-11-20,Medical Ward A,Fall,No harm,2024-12-11,21,False,False
+SYN-QI-000535,2024-11-04,Medical Ward A,Fall,No harm,2024-11-23,19,False,False
+SYN-QI-000536,2024-11-26,Medical Ward A,Fall,Near miss,2024-12-02,6,False,False
+SYN-QI-000537,2024-11-30,Medical Ward A,Fall,No harm,2024-12-12,12,False,False
+SYN-QI-000538,2024-11-27,Medical Ward A,Fall,No harm,2024-12-24,27,False,False
+SYN-QI-000539,2024-11-08,Medical Ward A,Medication error,Moderate harm,2024-11-30,22,True,False
+SYN-QI-000540,2024-11-09,Medical Ward A,Medication error,Moderate harm,2024-12-22,43,True,True
+SYN-QI-000541,2024-11-06,Medical Ward A,Equipment / device,Near miss,2024-11-20,14,False,False
+SYN-QI-000542,2024-11-23,Medical Ward A,Other,Moderate harm,2024-12-04,11,True,True
+SYN-QI-000543,2024-11-04,Medical Ward A,Patient identification,Severe harm / Sentinel,2024-11-11,7,True,True
+SYN-QI-000544,2024-11-08,Medical Ward A,Documentation,Minor harm,2024-11-23,15,False,False
+SYN-QI-000545,2024-11-29,Medical Ward A,Pressure injury,Near miss,2024-12-12,13,False,False
+SYN-QI-000546,2024-11-10,Medical Ward A,Documentation,No harm,2024-11-23,13,False,False
+SYN-QI-000547,2024-11-21,Medical Ward A,Delay in care,Moderate harm,2024-12-12,21,True,True
+SYN-QI-000548,2024-11-22,Medical Ward A,Documentation,No harm,2024-12-15,23,False,False
+SYN-QI-000549,2024-11-17,Medical Ward A,Documentation,No harm,2024-12-03,16,False,False
+SYN-QI-000550,2024-11-05,Surgical Ward B,Fall,No harm,2024-11-16,11,False,False
+SYN-QI-000551,2024-11-14,Surgical Ward B,Fall,No harm,2024-12-09,25,False,False
+SYN-QI-000552,2024-11-12,Surgical Ward B,Medication error,No harm,2024-12-10,28,False,False
+SYN-QI-000553,2024-11-10,Surgical Ward B,Medication error,No harm,2025-01-03,54,False,False
+SYN-QI-000554,2024-11-10,Surgical Ward B,Medication error,Minor harm,2024-11-16,6,False,False
+SYN-QI-000555,2024-11-10,Surgical Ward B,Medication error,Near miss,2024-11-17,7,False,False
+SYN-QI-000556,2024-11-07,Surgical Ward B,Patient identification,No harm,2024-11-10,3,False,False
+SYN-QI-000557,2024-11-30,Surgical Ward B,Patient identification,Severe harm / Sentinel,2025-01-02,33,True,True
+SYN-QI-000558,2024-11-15,Surgical Ward B,Other,Minor harm,2024-12-02,17,False,False
+SYN-QI-000559,2024-11-25,Surgical Ward B,Pressure injury,Moderate harm,2024-12-13,18,True,True
+SYN-QI-000560,2024-11-04,Surgical Ward B,Delay in care,Minor harm,2024-11-17,13,False,False
+SYN-QI-000561,2024-11-25,Surgical Ward B,Delay in care,No harm,2024-12-07,12,False,False
+SYN-QI-000562,2024-11-17,Surgical Ward B,Pressure injury,Minor harm,2024-12-05,18,False,False
+SYN-QI-000563,2024-11-24,Surgical Ward B,Other,Near miss,2024-12-12,18,False,False
+SYN-QI-000564,2024-11-19,Surgical Ward B,Pressure injury,Near miss,2024-12-25,36,False,False
+SYN-QI-000565,2024-11-11,ICU,Fall,No harm,2025-01-16,66,False,False
+SYN-QI-000566,2024-11-05,ICU,Medication error,No harm,2024-12-13,38,False,False
+SYN-QI-000567,2024-11-14,ICU,Equipment / device,No harm,2024-12-02,18,False,False
+SYN-QI-000568,2024-11-16,ICU,Other,No harm,2024-11-27,11,False,False
+SYN-QI-000569,2024-11-19,ICU,Documentation,Minor harm,2024-12-11,22,False,False
+SYN-QI-000570,2024-11-23,ICU,Patient identification,Near miss,2024-12-17,24,False,False
+SYN-QI-000571,2024-11-29,ICU,Other,No harm,2024-12-03,4,False,False
+SYN-QI-000572,2024-11-17,Emergency Dept,Fall,No harm,2024-11-30,13,False,False
+SYN-QI-000573,2024-11-11,Emergency Dept,Medication error,Near miss,2024-12-09,28,False,False
+SYN-QI-000574,2024-11-01,Emergency Dept,Medication error,Near miss,2024-11-24,23,False,False
+SYN-QI-000575,2024-11-09,Emergency Dept,Pressure injury,No harm,2024-12-13,34,False,False
+SYN-QI-000576,2024-11-20,Emergency Dept,Documentation,Near miss,2024-11-20,0,False,False
+SYN-QI-000577,2024-11-21,Emergency Dept,Other,Moderate harm,2024-12-08,17,True,True
+SYN-QI-000578,2024-11-18,Paediatrics,Fall,No harm,2024-12-02,14,False,False
+SYN-QI-000579,2024-11-02,Paediatrics,Medication error,Severe harm / Sentinel,2024-11-15,13,True,True
+SYN-QI-000580,2024-11-05,Paediatrics,Documentation,Near miss,2025-01-16,72,False,False
+SYN-QI-000581,2024-11-23,Paediatrics,Patient identification,No harm,2024-11-28,5,False,False
+SYN-QI-000582,2024-11-14,Paediatrics,Other,Near miss,2024-12-25,41,False,False
+SYN-QI-000583,2024-11-01,Paediatrics,Documentation,No harm,2024-12-02,31,False,False
+SYN-QI-000584,2024-11-18,Maternity,Fall,No harm,2024-12-07,19,False,False
+SYN-QI-000585,2024-11-22,Maternity,Medication error,Minor harm,2024-11-28,6,False,False
+SYN-QI-000586,2024-11-27,Maternity,Medication error,Near miss,2024-12-20,23,False,False
+SYN-QI-000587,2024-11-22,Maternity,Patient identification,Near miss,2024-12-21,29,False,False
+SYN-QI-000588,2024-11-11,Maternity,Patient identification,Minor harm,2024-11-23,12,False,False
+SYN-QI-000589,2024-11-18,Maternity,Pressure injury,Near miss,2024-11-29,11,False,False
+SYN-QI-000590,2024-12-20,Medical Ward A,Fall,Near miss,2024-12-31,11,False,False
+SYN-QI-000591,2024-12-16,Medical Ward A,Fall,No harm,2024-12-26,10,False,False
+SYN-QI-000592,2024-12-21,Medical Ward A,Fall,Near miss,2025-01-03,13,False,False
+SYN-QI-000593,2024-12-17,Medical Ward A,Fall,Near miss,2024-12-28,11,False,False
+SYN-QI-000594,2024-12-06,Medical Ward A,Medication error,Minor harm,2024-12-30,24,False,False
+SYN-QI-000595,2024-12-07,Medical Ward A,Medication error,No harm,2024-12-16,9,False,False
+SYN-QI-000596,2024-12-27,Medical Ward A,Medication error,Near miss,2025-02-01,36,False,False
+SYN-QI-000597,2024-12-13,Medical Ward A,Equipment / device,Near miss,2024-12-18,5,False,False
+SYN-QI-000598,2024-12-17,Medical Ward A,Pressure injury,No harm,2025-01-26,40,False,False
+SYN-QI-000599,2024-12-21,Medical Ward A,Delay in care,No harm,2025-01-07,17,False,False
+SYN-QI-000600,2024-12-19,Medical Ward A,Delay in care,Near miss,2025-01-14,26,False,False
+SYN-QI-000601,2024-12-17,Medical Ward A,Other,Near miss,2024-12-28,11,False,False
+SYN-QI-000602,2024-12-07,Medical Ward A,Other,No harm,2025-01-06,30,False,False
+SYN-QI-000603,2024-12-21,Medical Ward A,Other,No harm,2025-01-14,24,False,False
+SYN-QI-000604,2024-12-20,Medical Ward A,Pressure injury,Severe harm / Sentinel,2024-12-28,8,True,False
+SYN-QI-000605,2024-12-26,Medical Ward A,Pressure injury,Near miss,2025-01-04,9,False,False
+SYN-QI-000606,2024-12-10,Surgical Ward B,Fall,No harm,2024-12-17,7,False,False
+SYN-QI-000607,2024-12-06,Surgical Ward B,Medication error,Near miss,2024-12-09,3,False,False
+SYN-QI-000608,2024-12-19,Surgical Ward B,Delay in care,Near miss,2025-01-07,19,False,False
+SYN-QI-000609,2024-12-04,Surgical Ward B,Equipment / device,Near miss,2024-12-15,11,False,False
+SYN-QI-000610,2024-12-23,ICU,Delay in care,Near miss,2025-01-15,23,False,False
+SYN-QI-000611,2024-12-21,ICU,Pressure injury,Minor harm,2025-01-26,36,False,False
+SYN-QI-000612,2024-12-16,ICU,Other,Near miss,2024-12-31,15,False,False
+SYN-QI-000613,2024-12-17,ICU,Pressure injury,Moderate harm,2025-02-06,51,True,True
+SYN-QI-000614,2024-12-25,ICU,Documentation,Moderate harm,2025-01-23,29,True,True
+SYN-QI-000615,2024-12-11,Emergency Dept,Medication error,No harm,2024-12-20,9,False,False
+SYN-QI-000616,2024-12-13,Emergency Dept,Medication error,Near miss,2024-12-27,14,False,False
+SYN-QI-000617,2024-12-23,Emergency Dept,Medication error,No harm,2025-01-27,35,False,False
+SYN-QI-000618,2024-12-21,Emergency Dept,Patient identification,Minor harm,2024-12-29,8,False,False
+SYN-QI-000619,2024-12-08,Emergency Dept,Patient identification,Near miss,2024-12-25,17,False,False
+SYN-QI-000620,2024-12-29,Emergency Dept,Pressure injury,Minor harm,2024-12-30,1,False,False
+SYN-QI-000621,2024-12-18,Emergency Dept,Other,Moderate harm,2024-12-30,12,True,True
+SYN-QI-000622,2024-12-23,Emergency Dept,Documentation,Near miss,2025-01-23,31,False,False
+SYN-QI-000623,2024-12-01,Paediatrics,Fall,Near miss,2024-12-11,10,False,False
+SYN-QI-000624,2024-12-11,Paediatrics,Documentation,Near miss,2025-01-13,33,False,False
+SYN-QI-000625,2024-12-28,Paediatrics,Documentation,No harm,2025-01-05,8,False,False
+SYN-QI-000626,2024-12-10,Paediatrics,Equipment / device,No harm,2024-12-31,21,False,False
+SYN-QI-000627,2024-12-09,Maternity,Medication error,Near miss,2025-01-11,33,False,False
+SYN-QI-000628,2024-12-05,Maternity,Medication error,No harm,2024-12-12,7,False,False
+SYN-QI-000629,2024-12-04,Maternity,Documentation,No harm,2024-12-14,10,False,False
+SYN-QI-000630,2024-12-26,Maternity,Patient identification,No harm,2025-01-19,24,False,False
+SYN-QI-000631,2024-12-01,Maternity,Documentation,No harm,2024-12-05,4,False,False
+SYN-QI-000632,2024-12-22,Maternity,Delay in care,Minor harm,2025-01-06,15,False,False
+SYN-QI-000633,2024-12-02,Maternity,Delay in care,Minor harm,2024-12-05,3,False,False
+SYN-QI-000634,2025-01-12,Medical Ward A,Fall,No harm,2025-01-24,12,False,False
+SYN-QI-000635,2025-01-14,Medical Ward A,Medication error,No harm,2025-01-31,17,False,False
+SYN-QI-000636,2025-01-01,Medical Ward A,Medication error,Minor harm,2025-01-31,30,False,False
+SYN-QI-000637,2025-01-19,Medical Ward A,Delay in care,Near miss,2025-01-25,6,False,False
+SYN-QI-000638,2025-01-02,Medical Ward A,Patient identification,Near miss,2025-01-24,22,False,False
+SYN-QI-000639,2025-01-30,Medical Ward A,Patient identification,No harm,2025-02-06,7,False,False
+SYN-QI-000640,2025-01-27,Medical Ward A,Documentation,No harm,2025-02-07,11,False,False
+SYN-QI-000641,2025-01-24,Medical Ward A,Pressure injury,Near miss,2025-03-11,46,False,False
+SYN-QI-000642,2025-01-07,Medical Ward A,Delay in care,No harm,2025-01-20,13,False,False
+SYN-QI-000643,2025-01-09,Medical Ward A,Documentation,Near miss,2025-01-31,22,False,False
+SYN-QI-000644,2025-01-14,Medical Ward A,Patient identification,No harm,2025-02-01,18,False,False
+SYN-QI-000645,2025-01-26,Medical Ward A,Documentation,No harm,2025-02-05,10,False,False
+SYN-QI-000646,2025-01-27,Medical Ward A,Delay in care,Near miss,2025-02-06,10,False,False
+SYN-QI-000647,2025-01-06,Medical Ward A,Delay in care,No harm,2025-01-16,10,False,False
+SYN-QI-000648,2025-01-11,Medical Ward A,Pressure injury,Near miss,2025-01-16,5,False,False
+SYN-QI-000649,2025-01-04,Surgical Ward B,Fall,Minor harm,2025-01-18,14,False,False
+SYN-QI-000650,2025-01-13,Surgical Ward B,Fall,Minor harm,2025-02-01,19,False,False
+SYN-QI-000651,2025-01-16,Surgical Ward B,Medication error,Near miss,2025-02-12,27,False,False
+SYN-QI-000652,2025-01-12,Surgical Ward B,Medication error,No harm,2025-01-29,17,False,False
+SYN-QI-000653,2025-01-01,Surgical Ward B,Medication error,Moderate harm,2025-01-29,28,True,False
+SYN-QI-000654,2025-01-23,Surgical Ward B,Patient identification,No harm,2025-02-06,14,False,False
+SYN-QI-000655,2025-01-15,Surgical Ward B,Delay in care,Near miss,2025-02-06,22,False,False
+SYN-QI-000656,2025-01-12,Surgical Ward B,Delay in care,Minor harm,2025-03-01,48,False,False
+SYN-QI-000657,2025-01-02,Surgical Ward B,Pressure injury,Minor harm,2025-02-05,34,False,False
+SYN-QI-000658,2025-01-31,Surgical Ward B,Other,No harm,2025-02-24,24,False,False
+SYN-QI-000659,2025-01-17,Surgical Ward B,Pressure injury,No harm,2025-02-09,23,False,False
+SYN-QI-000660,2025-01-22,ICU,Equipment / device,Near miss,2025-01-25,3,False,False
+SYN-QI-000661,2025-01-30,ICU,Equipment / device,No harm,2025-02-04,5,False,False
+SYN-QI-000662,2025-01-29,Emergency Dept,Other,Near miss,2025-02-08,10,False,False
+SYN-QI-000663,2025-01-27,Emergency Dept,Equipment / device,No harm,2025-02-24,28,False,False
+SYN-QI-000664,2025-01-25,Emergency Dept,Delay in care,Minor harm,2025-01-26,1,False,False
+SYN-QI-000665,2025-01-15,Emergency Dept,Other,No harm,2025-01-17,2,False,False
+SYN-QI-000666,2025-01-15,Emergency Dept,Pressure injury,Severe harm / Sentinel,2025-01-22,7,True,False
+SYN-QI-000667,2025-01-27,Emergency Dept,Patient identification,Minor harm,2025-02-01,5,False,False
+SYN-QI-000668,2025-01-27,Emergency Dept,Documentation,Near miss,2025-02-01,5,False,False
+SYN-QI-000669,2025-01-02,Paediatrics,Documentation,Moderate harm,2025-01-21,19,True,True
+SYN-QI-000670,2025-01-10,Paediatrics,Delay in care,Minor harm,2025-01-13,3,False,False
+SYN-QI-000671,2025-01-25,Maternity,Medication error,Near miss,2025-02-14,20,False,False
+SYN-QI-000672,2025-01-19,Maternity,Other,Moderate harm,2025-02-03,15,True,True
+SYN-QI-000673,2025-01-24,Maternity,Pressure injury,Near miss,2025-02-03,10,False,False
+SYN-QI-000674,2025-01-14,Maternity,Other,No harm,2025-02-10,27,False,False
+SYN-QI-000675,2025-02-03,Medical Ward A,Medication error,Near miss,2025-02-16,13,False,False
+SYN-QI-000676,2025-02-19,Medical Ward A,Medication error,Near miss,2025-03-24,33,False,False
+SYN-QI-000677,2025-02-07,Medical Ward A,Delay in care,No harm,2025-02-10,3,False,False
+SYN-QI-000678,2025-02-04,Medical Ward A,Pressure injury,Near miss,2025-02-21,17,False,False
+SYN-QI-000679,2025-02-03,Medical Ward A,Patient identification,No harm,2025-02-06,3,False,False
+SYN-QI-000680,2025-02-06,Medical Ward A,Pressure injury,No harm,2025-03-11,33,False,False
+SYN-QI-000681,2025-02-02,Surgical Ward B,Fall,Near miss,2025-02-14,12,False,False
+SYN-QI-000682,2025-02-28,Surgical Ward B,Medication error,No harm,2025-03-29,29,False,False
+SYN-QI-000683,2025-02-06,Surgical Ward B,Documentation,No harm,2025-03-05,27,False,False
+SYN-QI-000684,2025-02-27,Surgical Ward B,Pressure injury,Near miss,2025-03-21,22,False,False
+SYN-QI-000685,2025-02-02,Surgical Ward B,Patient identification,Minor harm,2025-02-26,24,False,False
+SYN-QI-000686,2025-02-20,Surgical Ward B,Patient identification,Near miss,2025-03-14,22,False,False
+SYN-QI-000687,2025-02-22,Surgical Ward B,Other,Near miss,2025-03-01,7,False,False
+SYN-QI-000688,2025-02-07,Surgical Ward B,Pressure injury,Moderate harm,2025-02-20,13,True,True
+SYN-QI-000689,2025-02-16,ICU,Delay in care,No harm,2025-02-20,4,False,False
+SYN-QI-000690,2025-02-26,Emergency Dept,Medication error,Moderate harm,2025-03-14,16,True,True
+SYN-QI-000691,2025-02-18,Emergency Dept,Medication error,Near miss,2025-04-02,43,False,False
+SYN-QI-000692,2025-02-13,Emergency Dept,Documentation,Minor harm,2025-02-23,10,False,False
+SYN-QI-000693,2025-02-11,Emergency Dept,Delay in care,No harm,2025-02-17,6,False,False
+SYN-QI-000694,2025-02-02,Emergency Dept,Other,No harm,2025-02-09,7,False,False
+SYN-QI-000695,2025-02-11,Emergency Dept,Other,Minor harm,2025-02-16,5,False,False
+SYN-QI-000696,2025-02-28,Emergency Dept,Equipment / device,No harm,2025-03-22,22,False,False
+SYN-QI-000697,2025-02-01,Paediatrics,Fall,No harm,2025-02-24,23,False,False
+SYN-QI-000698,2025-02-02,Paediatrics,Medication error,Minor harm,2025-02-06,4,False,False
+SYN-QI-000699,2025-02-11,Paediatrics,Documentation,Minor harm,2025-03-03,20,False,False
+SYN-QI-000700,2025-02-20,Maternity,Medication error,Minor harm,2025-03-17,25,False,False
+SYN-QI-000701,2025-02-12,Maternity,Medication error,Minor harm,2025-02-27,15,False,False
+SYN-QI-000702,2025-02-04,Maternity,Documentation,Near miss,2025-02-14,10,False,False
+SYN-QI-000703,2025-02-01,Maternity,Delay in care,No harm,2025-02-26,25,False,False
+SYN-QI-000704,2025-02-24,Maternity,Delay in care,Minor harm,2025-03-13,17,False,False
+SYN-QI-000705,2025-02-11,Maternity,Equipment / device,No harm,2025-02-22,11,False,False
+SYN-QI-000706,2025-03-01,Medical Ward A,Fall,Near miss,2025-03-22,21,False,False
+SYN-QI-000707,2025-03-03,Medical Ward A,Fall,No harm,2025-03-17,14,False,False
+SYN-QI-000708,2025-03-30,Medical Ward A,Medication error,Near miss,2025-04-06,7,False,False
+SYN-QI-000709,2025-03-15,Medical Ward A,Pressure injury,Moderate harm,2025-03-22,7,True,True
+SYN-QI-000710,2025-03-08,Medical Ward A,Delay in care,Near miss,2025-03-12,4,False,False
+SYN-QI-000711,2025-03-13,Medical Ward A,Other,No harm,2025-03-23,10,False,False
+SYN-QI-000712,2025-03-09,Medical Ward A,Documentation,Near miss,2025-03-14,5,False,False
+SYN-QI-000713,2025-03-28,Medical Ward A,Delay in care,Near miss,2025-04-07,10,False,False
+SYN-QI-000714,2025-03-17,Medical Ward A,Delay in care,Near miss,2025-03-22,5,False,False
+SYN-QI-000715,2025-03-26,Medical Ward A,Other,No harm,2025-04-03,8,False,False
+SYN-QI-000716,2025-03-03,Medical Ward A,Other,Near miss,2025-03-12,9,False,False
+SYN-QI-000717,2025-03-12,Surgical Ward B,Medication error,Near miss,2025-03-21,9,False,False
+SYN-QI-000718,2025-03-31,Surgical Ward B,Medication error,Near miss,2025-04-05,5,False,False
+SYN-QI-000719,2025-03-16,Surgical Ward B,Medication error,Minor harm,2025-03-25,9,False,False
+SYN-QI-000720,2025-03-05,Surgical Ward B,Delay in care,Moderate harm,2025-03-16,11,True,True
+SYN-QI-000721,2025-03-22,Surgical Ward B,Pressure injury,No harm,2025-03-26,4,False,False
+SYN-QI-000722,2025-03-18,Surgical Ward B,Equipment / device,Minor harm,2025-04-09,22,False,False
+SYN-QI-000723,2025-03-12,Surgical Ward B,Pressure injury,Near miss,2025-03-17,5,False,False
+SYN-QI-000724,2025-03-05,Surgical Ward B,Patient identification,Minor harm,2025-06-23,110,False,False
+SYN-QI-000725,2025-03-25,Surgical Ward B,Pressure injury,No harm,2025-04-21,27,False,False
+SYN-QI-000726,2025-03-01,Surgical Ward B,Delay in care,No harm,2025-03-18,17,False,False
+SYN-QI-000727,2025-03-03,Surgical Ward B,Patient identification,No harm,2025-03-11,8,False,False
+SYN-QI-000728,2025-03-06,ICU,Medication error,No harm,2025-03-15,9,False,False
+SYN-QI-000729,2025-03-22,ICU,Delay in care,Moderate harm,2025-03-28,6,True,True
+SYN-QI-000730,2025-03-18,ICU,Documentation,Near miss,2025-03-30,12,False,False
+SYN-QI-000731,2025-03-11,Emergency Dept,Fall,Near miss,2025-03-16,5,False,False
+SYN-QI-000732,2025-03-29,Emergency Dept,Medication error,No harm,2025-04-02,4,False,False
+SYN-QI-000733,2025-03-10,Emergency Dept,Medication error,Moderate harm,2025-03-28,18,True,True
+SYN-QI-000734,2025-03-08,Emergency Dept,Medication error,Moderate harm,2025-03-31,23,True,True
+SYN-QI-000735,2025-03-28,Emergency Dept,Documentation,No harm,2025-04-25,28,False,False
+SYN-QI-000736,2025-03-14,Emergency Dept,Pressure injury,No harm,2025-03-26,12,False,False
+SYN-QI-000737,2025-03-31,Emergency Dept,Patient identification,No harm,2025-04-25,25,False,False
+SYN-QI-000738,2025-03-23,Emergency Dept,Documentation,Moderate harm,2025-04-08,16,True,True
+SYN-QI-000739,2025-03-31,Emergency Dept,Delay in care,Moderate harm,2025-04-09,9,True,True
+SYN-QI-000740,2025-03-22,Emergency Dept,Equipment / device,Near miss,2025-04-16,25,False,False
+SYN-QI-000741,2025-03-27,Paediatrics,Medication error,No harm,2025-04-16,20,False,False
+SYN-QI-000742,2025-03-28,Paediatrics,Patient identification,Minor harm,2025-04-03,6,False,False
+SYN-QI-000743,2025-03-22,Paediatrics,Delay in care,Near miss,2025-03-23,1,False,False
+SYN-QI-000744,2025-03-25,Paediatrics,Patient identification,No harm,2025-03-29,4,False,False
+SYN-QI-000745,2025-03-17,Maternity,Fall,Minor harm,2025-03-31,14,False,False
+SYN-QI-000746,2025-03-21,Maternity,Documentation,Minor harm,2025-04-12,22,False,False
+SYN-QI-000747,2025-03-15,Maternity,Delay in care,Moderate harm,2025-04-17,33,True,True
+SYN-QI-000748,2025-03-07,Maternity,Equipment / device,Near miss,2025-03-29,22,False,False
+SYN-QI-000749,2025-03-10,Maternity,Documentation,Minor harm,2025-04-28,49,False,False
+SYN-QI-000750,2025-04-15,Medical Ward A,Fall,Near miss,2025-04-21,6,False,False
+SYN-QI-000751,2025-04-30,Medical Ward A,Fall,No harm,2025-05-10,10,False,False
+SYN-QI-000752,2025-04-11,Medical Ward A,Fall,No harm,2025-05-04,23,False,False
+SYN-QI-000753,2025-04-07,Medical Ward A,Fall,No harm,2025-04-14,7,False,False
+SYN-QI-000754,2025-04-13,Medical Ward A,Medication error,Near miss,2025-06-22,70,False,False
+SYN-QI-000755,2025-04-02,Medical Ward A,Medication error,Minor harm,2025-05-01,29,False,False
+SYN-QI-000756,2025-04-27,Medical Ward A,Medication error,No harm,2025-05-15,18,False,False
+SYN-QI-000757,2025-04-12,Medical Ward A,Medication error,No harm,2025-04-23,11,False,False
+SYN-QI-000758,2025-04-15,Medical Ward A,Other,No harm,2025-04-22,7,False,False
+SYN-QI-000759,2025-04-10,Medical Ward A,Documentation,No harm,2025-05-05,25,False,False
+SYN-QI-000760,2025-04-10,Medical Ward A,Other,Minor harm,2025-05-20,40,False,False
+SYN-QI-000761,2025-04-05,Medical Ward A,Pressure injury,No harm,2025-05-11,36,False,False
+SYN-QI-000762,2025-04-15,Medical Ward A,Pressure injury,Moderate harm,2025-04-25,10,True,False
+SYN-QI-000763,2025-04-25,Medical Ward A,Other,No harm,2025-05-06,11,False,False
+SYN-QI-000764,2025-04-21,Medical Ward A,Patient identification,Near miss,2025-05-08,17,False,False
+SYN-QI-000765,2025-04-04,Medical Ward A,Other,No harm,2025-04-13,9,False,False
+SYN-QI-000766,2025-04-02,Medical Ward A,Other,Near miss,2025-05-04,32,False,False
+SYN-QI-000767,2025-04-19,Surgical Ward B,Medication error,Minor harm,2025-05-02,13,False,False
+SYN-QI-000768,2025-04-28,Surgical Ward B,Medication error,Minor harm,2025-05-30,32,False,False
+SYN-QI-000769,2025-04-06,Surgical Ward B,Documentation,Minor harm,2025-04-18,12,False,False
+SYN-QI-000770,2025-04-29,Surgical Ward B,Equipment / device,Minor harm,2025-05-10,11,False,False
+SYN-QI-000771,2025-04-03,Surgical Ward B,Patient identification,Near miss,2025-05-02,29,False,False
+SYN-QI-000772,2025-04-19,Surgical Ward B,Documentation,No harm,2025-04-24,5,False,False
+SYN-QI-000773,2025-04-17,Surgical Ward B,Equipment / device,Near miss,2025-05-17,30,False,False
+SYN-QI-000774,2025-04-26,Surgical Ward B,Other,No harm,2025-05-16,20,False,False
+SYN-QI-000775,2025-04-01,Surgical Ward B,Other,No harm,2025-04-12,11,False,False
+SYN-QI-000776,2025-04-19,ICU,Fall,No harm,2025-05-07,18,False,False
+SYN-QI-000777,2025-04-29,ICU,Pressure injury,Near miss,2025-05-13,14,False,False
+SYN-QI-000778,2025-04-13,ICU,Pressure injury,Near miss,2025-04-24,11,False,False
+SYN-QI-000779,2025-04-18,Emergency Dept,Medication error,Minor harm,2025-05-06,18,False,False
+SYN-QI-000780,2025-04-06,Emergency Dept,Pressure injury,Near miss,2025-04-17,11,False,False
+SYN-QI-000781,2025-04-11,Emergency Dept,Documentation,Near miss,2025-05-10,29,False,False
+SYN-QI-000782,2025-04-16,Emergency Dept,Other,No harm,2025-04-20,4,False,False
+SYN-QI-000783,2025-04-08,Emergency Dept,Equipment / device,Moderate harm,2025-04-23,15,True,False
+SYN-QI-000784,2025-04-14,Emergency Dept,Pressure injury,Near miss,2025-05-11,27,False,False
+SYN-QI-000785,2025-04-11,Emergency Dept,Pressure injury,Near miss,2025-04-28,17,False,False
+SYN-QI-000786,2025-04-21,Emergency Dept,Equipment / device,No harm,2025-05-11,20,False,False
+SYN-QI-000787,2025-04-24,Emergency Dept,Equipment / device,Near miss,2025-05-02,8,False,False
+SYN-QI-000788,2025-04-11,Paediatrics,Fall,Minor harm,2025-05-01,20,False,False
+SYN-QI-000789,2025-04-19,Paediatrics,Fall,No harm,2025-05-20,31,False,False
+SYN-QI-000790,2025-04-14,Paediatrics,Medication error,Near miss,2025-05-04,20,False,False
+SYN-QI-000791,2025-04-20,Paediatrics,Medication error,Near miss,2025-05-23,33,False,False
+SYN-QI-000792,2025-04-24,Paediatrics,Medication error,Near miss,2025-04-29,5,False,False
+SYN-QI-000793,2025-04-18,Paediatrics,Patient identification,No harm,2025-04-21,3,False,False
+SYN-QI-000794,2025-04-19,Paediatrics,Patient identification,Near miss,2025-04-25,6,False,False
+SYN-QI-000795,2025-04-01,Paediatrics,Patient identification,No harm,2025-04-12,11,False,False
+SYN-QI-000796,2025-04-15,Maternity,Fall,Minor harm,2025-04-18,3,False,False
+SYN-QI-000797,2025-04-18,Maternity,Fall,Near miss,2025-04-27,9,False,False
+SYN-QI-000798,2025-04-03,Maternity,Medication error,Minor harm,2025-04-11,8,False,False
+SYN-QI-000799,2025-04-09,Maternity,Patient identification,Moderate harm,2025-04-21,12,True,False
+SYN-QI-000800,2025-04-02,Maternity,Delay in care,Near miss,2025-04-14,12,False,False
+SYN-QI-000801,2025-04-01,Maternity,Other,Minor harm,2025-04-15,14,False,False
+SYN-QI-000802,2025-04-22,Maternity,Delay in care,Moderate harm,2025-04-25,3,True,False
+SYN-QI-000803,2025-05-31,Medical Ward A,Fall,No harm,2025-06-17,17,False,False
+SYN-QI-000804,2025-05-25,Medical Ward A,Fall,Minor harm,2025-06-06,12,False,False
+SYN-QI-000805,2025-05-16,Medical Ward A,Medication error,No harm,2025-05-30,14,False,False
+SYN-QI-000806,2025-05-26,Medical Ward A,Medication error,Minor harm,2025-06-06,11,False,False
+SYN-QI-000807,2025-05-16,Medical Ward A,Documentation,Near miss,2025-05-30,14,False,False
+SYN-QI-000808,2025-05-29,Medical Ward A,Equipment / device,No harm,2025-06-15,17,False,False
+SYN-QI-000809,2025-05-14,Medical Ward A,Equipment / device,Near miss,2025-05-20,6,False,False
+SYN-QI-000810,2025-05-19,Medical Ward A,Documentation,No harm,2025-06-04,16,False,False
+SYN-QI-000811,2025-05-27,Medical Ward A,Patient identification,No harm,2025-06-17,21,False,False
+SYN-QI-000812,2025-05-22,Medical Ward A,Pressure injury,No harm,2025-08-09,79,False,False
+SYN-QI-000813,2025-05-10,Medical Ward A,Other,Minor harm,2025-05-16,6,False,False
+SYN-QI-000814,2025-05-23,Medical Ward A,Delay in care,Near miss,2025-05-28,5,False,False
+SYN-QI-000815,2025-05-21,Medical Ward A,Other,Near miss,2025-05-25,4,False,False
+SYN-QI-000816,2025-05-14,Medical Ward A,Other,Near miss,2025-06-02,19,False,False
+SYN-QI-000817,2025-05-17,Medical Ward A,Equipment / device,Near miss,2025-06-02,16,False,False
+SYN-QI-000818,2025-05-12,Medical Ward A,Equipment / device,Near miss,2025-06-03,22,False,False
+SYN-QI-000819,2025-05-18,Medical Ward A,Equipment / device,Near miss,2025-06-02,15,False,False
+SYN-QI-000820,2025-05-30,Medical Ward A,Delay in care,Minor harm,2025-06-28,29,False,False
+SYN-QI-000821,2025-05-17,Medical Ward A,Pressure injury,Near miss,2025-07-10,54,False,False
+SYN-QI-000822,2025-05-17,Medical Ward A,Patient identification,Minor harm,2025-06-01,15,False,False
+SYN-QI-000823,2025-05-05,Surgical Ward B,Fall,No harm,2025-05-14,9,False,False
+SYN-QI-000824,2025-05-08,Surgical Ward B,Medication error,Minor harm,2025-06-14,37,False,False
+SYN-QI-000825,2025-05-04,Surgical Ward B,Medication error,No harm,2025-05-08,4,False,False
+SYN-QI-000826,2025-05-04,Surgical Ward B,Delay in care,Near miss,2025-05-13,9,False,False
+SYN-QI-000827,2025-05-18,Surgical Ward B,Pressure injury,Minor harm,2025-05-19,1,False,False
+SYN-QI-000828,2025-05-12,Surgical Ward B,Other,Near miss,2025-05-14,2,False,False
+SYN-QI-000829,2025-05-28,Surgical Ward B,Pressure injury,Minor harm,2025-06-08,11,False,False
+SYN-QI-000830,2025-05-22,Surgical Ward B,Delay in care,Moderate harm,2025-06-06,15,True,True
+SYN-QI-000831,2025-05-25,Surgical Ward B,Equipment / device,No harm,2025-05-31,6,False,False
+SYN-QI-000832,2025-05-13,Surgical Ward B,Pressure injury,No harm,2025-06-07,25,False,False
+SYN-QI-000833,2025-05-01,Surgical Ward B,Documentation,Moderate harm,2025-05-04,3,True,False
+SYN-QI-000834,2025-05-11,Surgical Ward B,Documentation,No harm,2025-06-10,30,False,False
+SYN-QI-000835,2025-05-18,ICU,Patient identification,Minor harm,2025-06-16,29,False,False
+SYN-QI-000836,2025-05-30,ICU,Documentation,No harm,2025-06-04,5,False,False
+SYN-QI-000837,2025-05-27,ICU,Delay in care,Near miss,2025-05-29,2,False,False
+SYN-QI-000838,2025-05-26,Emergency Dept,Fall,No harm,2025-07-07,42,False,False
+SYN-QI-000839,2025-05-01,Emergency Dept,Fall,Near miss,2025-05-20,19,False,False
+SYN-QI-000840,2025-05-26,Emergency Dept,Medication error,Near miss,2025-06-05,10,False,False
+SYN-QI-000841,2025-05-24,Emergency Dept,Pressure injury,Moderate harm,2025-06-02,9,True,True
+SYN-QI-000842,2025-05-17,Emergency Dept,Patient identification,Near miss,2025-06-06,20,False,False
+SYN-QI-000843,2025-05-29,Emergency Dept,Patient identification,No harm,2025-06-02,4,False,False
+SYN-QI-000844,2025-05-23,Emergency Dept,Pressure injury,Moderate harm,2025-05-25,2,True,True
+SYN-QI-000845,2025-05-23,Emergency Dept,Other,No harm,2025-06-17,25,False,False
+SYN-QI-000846,2025-05-09,Emergency Dept,Patient identification,No harm,2025-05-16,7,False,False
+SYN-QI-000847,2025-05-11,Paediatrics,Patient identification,Near miss,2025-05-12,1,False,False
+SYN-QI-000848,2025-05-12,Paediatrics,Other,Minor harm,2025-06-03,22,False,False
+SYN-QI-000849,2025-05-25,Paediatrics,Delay in care,Near miss,2025-05-31,6,False,False
+SYN-QI-000850,2025-05-07,Paediatrics,Equipment / device,No harm,2025-05-17,10,False,False
+SYN-QI-000851,2025-05-26,Maternity,Patient identification,No harm,2025-05-30,4,False,False
+SYN-QI-000852,2025-05-16,Maternity,Documentation,Minor harm,2025-06-17,32,False,False
+SYN-QI-000853,2025-05-31,Maternity,Pressure injury,Near miss,2025-06-18,18,False,False
+SYN-QI-000854,2025-05-08,Maternity,Equipment / device,No harm,2025-07-22,75,False,False
+SYN-QI-000855,2025-05-11,Maternity,Documentation,Near miss,2025-05-22,11,False,False
+SYN-QI-000856,2025-05-04,Maternity,Equipment / device,Near miss,2025-05-27,23,False,False
+SYN-QI-000857,2025-06-03,Medical Ward A,Fall,Minor harm,2025-06-08,5,False,False
+SYN-QI-000858,2025-06-17,Medical Ward A,Fall,No harm,2025-07-22,35,False,False
+SYN-QI-000859,2025-06-26,Medical Ward A,Fall,Moderate harm,2025-07-25,29,True,True
+SYN-QI-000860,2025-06-03,Medical Ward A,Medication error,No harm,2025-06-20,17,False,False
+SYN-QI-000861,2025-06-03,Medical Ward A,Pressure injury,Minor harm,2025-06-16,13,False,False
+SYN-QI-000862,2025-06-07,Medical Ward A,Patient identification,Minor harm,2025-06-24,17,False,False
+SYN-QI-000863,2025-06-20,Medical Ward A,Patient identification,No harm,2025-06-24,4,False,False
+SYN-QI-000864,2025-06-30,Medical Ward A,Documentation,No harm,2025-07-07,7,False,False
+SYN-QI-000865,2025-06-06,Medical Ward A,Documentation,Minor harm,2025-06-30,24,False,False
+SYN-QI-000866,2025-06-04,Medical Ward A,Equipment / device,Near miss,2025-06-18,14,False,False
+SYN-QI-000867,2025-06-24,Medical Ward A,Equipment / device,Near miss,2025-06-25,1,False,False
+SYN-QI-000868,2025-06-19,Medical Ward A,Delay in care,Minor harm,2025-07-05,16,False,False
+SYN-QI-000869,2025-06-01,Medical Ward A,Other,Minor harm,2025-06-11,10,False,False
+SYN-QI-000870,2025-06-28,Medical Ward A,Documentation,No harm,2025-07-01,3,False,False
+SYN-QI-000871,2025-06-12,Medical Ward A,Documentation,Near miss,2025-06-26,14,False,False
+SYN-QI-000872,2025-06-27,Surgical Ward B,Fall,Near miss,2025-07-10,13,False,False
+SYN-QI-000873,2025-06-29,Surgical Ward B,Fall,Minor harm,2025-07-16,17,False,False
+SYN-QI-000874,2025-06-08,Surgical Ward B,Medication error,Near miss,2025-06-23,15,False,False
+SYN-QI-000875,2025-06-19,Surgical Ward B,Medication error,No harm,2025-06-28,9,False,False
+SYN-QI-000876,2025-06-26,Surgical Ward B,Pressure injury,No harm,2025-07-10,14,False,False
+SYN-QI-000877,2025-06-17,Surgical Ward B,Other,No harm,2025-07-08,21,False,False
+SYN-QI-000878,2025-06-23,Surgical Ward B,Delay in care,Near miss,2025-06-30,7,False,False
+SYN-QI-000879,2025-06-18,Surgical Ward B,Equipment / device,Minor harm,2025-07-24,36,False,False
+SYN-QI-000880,2025-06-03,Surgical Ward B,Equipment / device,No harm,2025-06-09,6,False,False
+SYN-QI-000881,2025-06-12,Surgical Ward B,Documentation,No harm,2025-06-27,15,False,False
+SYN-QI-000882,2025-06-03,Surgical Ward B,Equipment / device,No harm,2025-06-17,14,False,False
+SYN-QI-000883,2025-06-30,ICU,Medication error,No harm,2025-07-14,14,False,False
+SYN-QI-000884,2025-06-17,ICU,Other,No harm,2025-06-29,12,False,False
+SYN-QI-000885,2025-06-18,ICU,Delay in care,No harm,2025-07-09,21,False,False
+SYN-QI-000886,2025-06-17,ICU,Patient identification,No harm,2025-07-08,21,False,False
+SYN-QI-000887,2025-06-11,ICU,Other,No harm,2025-07-07,26,False,False
+SYN-QI-000888,2025-06-04,Emergency Dept,Medication error,No harm,2025-06-10,6,False,False
+SYN-QI-000889,2025-06-23,Emergency Dept,Medication error,Minor harm,2025-07-08,15,False,False
+SYN-QI-000890,2025-06-10,Emergency Dept,Pressure injury,Moderate harm,2025-06-18,8,True,True
+SYN-QI-000891,2025-06-03,Emergency Dept,Other,No harm,2025-06-13,10,False,False
+SYN-QI-000892,2025-06-02,Emergency Dept,Pressure injury,Minor harm,2025-06-29,27,False,False
+SYN-QI-000893,2025-06-04,Emergency Dept,Patient identification,Near miss,2025-07-03,29,False,False
+SYN-QI-000894,2025-06-12,Paediatrics,Fall,Minor harm,2025-07-08,26,False,False
+SYN-QI-000895,2025-06-22,Paediatrics,Medication error,Near miss,2025-06-29,7,False,False
+SYN-QI-000896,2025-06-13,Paediatrics,Medication error,No harm,2025-06-17,4,False,False
+SYN-QI-000897,2025-06-01,Paediatrics,Equipment / device,Near miss,2025-06-14,13,False,False
+SYN-QI-000898,2025-06-07,Paediatrics,Patient identification,No harm,2025-06-17,10,False,False
+SYN-QI-000899,2025-06-01,Paediatrics,Patient identification,No harm,2025-06-08,7,False,False
+SYN-QI-000900,2025-06-28,Paediatrics,Delay in care,No harm,2025-08-09,42,False,False
+SYN-QI-000901,2025-06-11,Maternity,Fall,No harm,2025-06-26,15,False,False
+SYN-QI-000902,2025-06-07,Maternity,Fall,No harm,2025-06-12,5,False,False
+SYN-QI-000903,2025-06-30,Maternity,Medication error,Moderate harm,2025-07-06,6,True,True
+SYN-QI-000904,2025-07-07,Medical Ward A,Fall,Near miss,2025-07-15,8,False,False
+SYN-QI-000905,2025-07-01,Medical Ward A,Fall,Near miss,2025-08-09,39,False,False
+SYN-QI-000906,2025-07-22,Medical Ward A,Fall,No harm,2025-08-02,11,False,False
+SYN-QI-000907,2025-07-09,Medical Ward A,Medication error,Moderate harm,2025-08-07,29,True,True
+SYN-QI-000908,2025-07-07,Medical Ward A,Medication error,Near miss,2025-08-22,46,False,False
+SYN-QI-000909,2025-07-12,Medical Ward A,Other,Minor harm,2025-08-02,21,False,False
+SYN-QI-000910,2025-07-06,Medical Ward A,Documentation,Moderate harm,2025-07-14,8,True,True
+SYN-QI-000911,2025-07-16,Medical Ward A,Documentation,No harm,2025-09-13,59,False,False
+SYN-QI-000912,2025-07-14,Medical Ward A,Delay in care,Minor harm,2025-07-17,3,False,False
+SYN-QI-000913,2025-07-15,Medical Ward A,Delay in care,Near miss,2025-07-30,15,False,False
+SYN-QI-000914,2025-07-17,Medical Ward A,Delay in care,No harm,2025-07-19,2,False,False
+SYN-QI-000915,2025-07-03,Medical Ward A,Other,Moderate harm,2025-07-17,14,True,True
+SYN-QI-000916,2025-07-29,Medical Ward A,Delay in care,Minor harm,2025-08-12,14,False,False
+SYN-QI-000917,2025-07-18,Medical Ward A,Equipment / device,No harm,2025-08-02,15,False,False
+SYN-QI-000918,2025-07-26,Medical Ward A,Pressure injury,No harm,2025-08-18,23,False,False
+SYN-QI-000919,2025-07-07,Medical Ward A,Other,Moderate harm,2025-07-23,16,True,True
+SYN-QI-000920,2025-07-07,Surgical Ward B,Fall,Near miss,2025-07-13,6,False,False
+SYN-QI-000921,2025-07-19,Surgical Ward B,Fall,No harm,2025-07-29,10,False,False
+SYN-QI-000922,2025-07-11,Surgical Ward B,Fall,No harm,2025-07-20,9,False,False
+SYN-QI-000923,2025-07-09,Surgical Ward B,Fall,Minor harm,2025-07-19,10,False,False
+SYN-QI-000924,2025-07-05,Surgical Ward B,Fall,Minor harm,2025-07-31,26,False,False
+SYN-QI-000925,2025-07-02,Surgical Ward B,Medication error,No harm,2025-07-13,11,False,False
+SYN-QI-000926,2025-07-11,Surgical Ward B,Medication error,Minor harm,2025-08-15,35,False,False
+SYN-QI-000927,2025-07-11,Surgical Ward B,Medication error,No harm,2025-07-22,11,False,False
+SYN-QI-000928,2025-07-09,Surgical Ward B,Medication error,Near miss,2025-07-19,10,False,False
+SYN-QI-000929,2025-07-20,Surgical Ward B,Medication error,Near miss,2025-07-25,5,False,False
+SYN-QI-000930,2025-07-23,Surgical Ward B,Other,Moderate harm,2025-09-03,42,True,False
+SYN-QI-000931,2025-07-27,Surgical Ward B,Equipment / device,Near miss,2025-08-08,12,False,False
+SYN-QI-000932,2025-07-16,Surgical Ward B,Patient identification,No harm,2025-09-01,47,False,False
+SYN-QI-000933,2025-07-19,Surgical Ward B,Other,No harm,2025-08-01,13,False,False
+SYN-QI-000934,2025-07-29,Surgical Ward B,Delay in care,No harm,2025-08-26,28,False,False
+SYN-QI-000935,2025-07-17,ICU,Fall,No harm,2025-07-20,3,False,False
+SYN-QI-000936,2025-07-02,ICU,Equipment / device,Minor harm,2025-07-05,3,False,False
+SYN-QI-000937,2025-07-13,Emergency Dept,Fall,Minor harm,2025-07-29,16,False,False
+SYN-QI-000938,2025-07-02,Emergency Dept,Medication error,Near miss,2025-07-20,18,False,False
+SYN-QI-000939,2025-07-24,Emergency Dept,Medication error,No harm,2025-08-11,18,False,False
+SYN-QI-000940,2025-07-14,Emergency Dept,Documentation,Moderate harm,2025-07-25,11,True,True
+SYN-QI-000941,2025-07-17,Emergency Dept,Delay in care,No harm,2025-08-28,42,False,False
+SYN-QI-000942,2025-07-15,Emergency Dept,Equipment / device,Minor harm,2025-07-20,5,False,False
+SYN-QI-000943,2025-07-13,Emergency Dept,Other,Minor harm,2025-07-25,12,False,False
+SYN-QI-000944,2025-07-08,Emergency Dept,Pressure injury,Moderate harm,2025-09-01,55,True,False
+SYN-QI-000945,2025-07-08,Emergency Dept,Documentation,Minor harm,2025-07-10,2,False,False
+SYN-QI-000946,2025-07-16,Emergency Dept,Equipment / device,No harm,2025-07-26,10,False,False
+SYN-QI-000947,2025-07-20,Emergency Dept,Other,Moderate harm,2025-08-05,16,True,True
+SYN-QI-000948,2025-07-25,Emergency Dept,Other,Moderate harm,2025-09-03,40,True,True
+SYN-QI-000949,2025-07-15,Emergency Dept,Delay in care,Near miss,2025-08-04,20,False,False
+SYN-QI-000950,2025-07-17,Emergency Dept,Equipment / device,Moderate harm,2025-07-24,7,True,False
+SYN-QI-000951,2025-07-11,Emergency Dept,Documentation,Minor harm,2025-07-22,11,False,False
+SYN-QI-000952,2025-07-20,Paediatrics,Pressure injury,Near miss,2025-08-08,19,False,False
+SYN-QI-000953,2025-07-11,Paediatrics,Other,Minor harm,2025-08-22,42,False,False
+SYN-QI-000954,2025-07-10,Paediatrics,Documentation,Minor harm,2025-08-12,33,False,False
+SYN-QI-000955,2025-07-09,Maternity,Medication error,No harm,2025-07-17,8,False,False
+SYN-QI-000956,2025-07-25,Maternity,Medication error,No harm,2025-07-28,3,False,False
+SYN-QI-000957,2025-07-12,Maternity,Pressure injury,Near miss,2025-07-17,5,False,False
+SYN-QI-000958,2025-07-30,Maternity,Other,Near miss,2025-08-03,4,False,False
+SYN-QI-000959,2025-07-07,Maternity,Delay in care,No harm,2025-07-30,23,False,False
+SYN-QI-000960,2025-07-26,Maternity,Pressure injury,No harm,2025-08-12,17,False,False
+SYN-QI-000961,2025-07-08,Maternity,Delay in care,Moderate harm,2025-07-14,6,True,True
+SYN-QI-000962,2025-07-05,Maternity,Other,No harm,2025-07-24,19,False,False
+SYN-QI-000963,2025-07-06,Maternity,Other,Minor harm,2025-07-15,9,False,False
+SYN-QI-000964,2025-07-10,Maternity,Pressure injury,Minor harm,2025-07-20,10,False,False
+SYN-QI-000965,2025-08-03,Medical Ward A,Fall,No harm,2025-09-22,50,False,False
+SYN-QI-000966,2025-08-12,Medical Ward A,Fall,No harm,2025-08-22,10,False,False
+SYN-QI-000967,2025-08-26,Medical Ward A,Medication error,Near miss,2025-09-03,8,False,False
+SYN-QI-000968,2025-08-03,Medical Ward A,Medication error,No harm,2025-08-20,17,False,False
+SYN-QI-000969,2025-08-06,Medical Ward A,Medication error,Moderate harm,2025-09-13,38,True,True
+SYN-QI-000970,2025-08-25,Medical Ward A,Patient identification,Moderate harm,2025-09-09,15,True,True
+SYN-QI-000971,2025-08-18,Medical Ward A,Other,No harm,2025-08-25,7,False,False
+SYN-QI-000972,2025-08-25,Medical Ward A,Other,Near miss,2025-08-27,2,False,False
+SYN-QI-000973,2025-08-22,Medical Ward A,Other,No harm,2025-08-31,9,False,False
+SYN-QI-000974,2025-08-04,Medical Ward A,Delay in care,Minor harm,2025-09-03,30,False,False
+SYN-QI-000975,2025-08-10,Medical Ward A,Other,Moderate harm,2025-08-29,19,True,True
+SYN-QI-000976,2025-08-29,Medical Ward A,Delay in care,No harm,2025-09-06,8,False,False
+SYN-QI-000977,2025-08-25,Medical Ward A,Other,No harm,2025-08-31,6,False,False
+SYN-QI-000978,2025-08-03,Medical Ward A,Delay in care,Near miss,2025-08-30,27,False,False
+SYN-QI-000979,2025-08-18,Medical Ward A,Equipment / device,Severe harm / Sentinel,2025-09-08,21,True,True
+SYN-QI-000980,2025-08-01,Medical Ward A,Pressure injury,Moderate harm,2025-09-12,42,True,True
+SYN-QI-000981,2025-08-26,Medical Ward A,Pressure injury,Near miss,2025-08-30,4,False,False
+SYN-QI-000982,2025-08-21,Medical Ward A,Patient identification,No harm,2025-09-16,26,False,False
+SYN-QI-000983,2025-08-13,Medical Ward A,Documentation,No harm,2025-09-04,22,False,False
+SYN-QI-000984,2025-08-14,Surgical Ward B,Fall,Minor harm,2025-08-24,10,False,False
+SYN-QI-000985,2025-08-15,Surgical Ward B,Fall,Near miss,2025-08-23,8,False,False
+SYN-QI-000986,2025-08-20,Surgical Ward B,Medication error,Moderate harm,2025-09-06,17,True,True
+SYN-QI-000987,2025-08-28,Surgical Ward B,Documentation,No harm,2025-10-01,34,False,False
+SYN-QI-000988,2025-08-03,Surgical Ward B,Delay in care,No harm,2025-08-05,2,False,False
+SYN-QI-000989,2025-08-21,Surgical Ward B,Patient identification,Near miss,2025-09-07,17,False,False
+SYN-QI-000990,2025-08-09,Surgical Ward B,Other,Minor harm,2025-09-01,23,False,False
+SYN-QI-000991,2025-08-02,Surgical Ward B,Documentation,Moderate harm,2025-08-18,16,True,True
+SYN-QI-000992,2025-08-07,Surgical Ward B,Patient identification,No harm,2025-09-03,27,False,False
+SYN-QI-000993,2025-08-01,ICU,Medication error,Near miss,2025-08-18,17,False,False
+SYN-QI-000994,2025-08-26,ICU,Delay in care,No harm,2025-09-03,8,False,False
+SYN-QI-000995,2025-08-17,ICU,Equipment / device,Near miss,2025-08-25,8,False,False
+SYN-QI-000996,2025-08-12,ICU,Delay in care,Moderate harm,2025-08-16,4,True,True
+SYN-QI-000997,2025-08-29,ICU,Pressure injury,Minor harm,2025-09-08,10,False,False
+SYN-QI-000998,2025-08-07,ICU,Other,No harm,2025-08-16,9,False,False
+SYN-QI-000999,2025-08-11,ICU,Delay in care,No harm,2025-09-08,28,False,False
+SYN-QI-001000,2025-08-07,ICU,Documentation,Near miss,2025-08-12,5,False,False
+SYN-QI-001001,2025-08-20,Emergency Dept,Medication error,No harm,2025-08-26,6,False,False
+SYN-QI-001002,2025-08-21,Emergency Dept,Pressure injury,No harm,2025-09-22,32,False,False
+SYN-QI-001003,2025-08-09,Emergency Dept,Patient identification,Near miss,2025-08-31,22,False,False
+SYN-QI-001004,2025-08-31,Emergency Dept,Equipment / device,No harm,2025-10-10,40,False,False
+SYN-QI-001005,2025-08-10,Emergency Dept,Equipment / device,No harm,2025-08-22,12,False,False
+SYN-QI-001006,2025-08-05,Emergency Dept,Delay in care,No harm,2025-08-10,5,False,False
+SYN-QI-001007,2025-08-30,Emergency Dept,Documentation,Near miss,2025-09-02,3,False,False
+SYN-QI-001008,2025-08-05,Emergency Dept,Documentation,Near miss,2025-08-22,17,False,False
+SYN-QI-001009,2025-08-24,Emergency Dept,Patient identification,Minor harm,2025-09-03,10,False,False
+SYN-QI-001010,2025-08-13,Emergency Dept,Other,Near miss,2025-08-16,3,False,False
+SYN-QI-001011,2025-08-30,Emergency Dept,Documentation,Minor harm,2025-09-17,18,False,False
+SYN-QI-001012,2025-08-12,Paediatrics,Fall,Minor harm,2025-09-28,47,False,False
+SYN-QI-001013,2025-08-26,Paediatrics,Medication error,Minor harm,2025-09-18,23,False,False
+SYN-QI-001014,2025-08-17,Paediatrics,Medication error,Near miss,2025-08-19,2,False,False
+SYN-QI-001015,2025-08-12,Paediatrics,Medication error,No harm,2025-09-02,21,False,False
+SYN-QI-001016,2025-08-06,Paediatrics,Equipment / device,No harm,2025-08-24,18,False,False
+SYN-QI-001017,2025-08-30,Paediatrics,Equipment / device,No harm,2025-09-15,16,False,False
+SYN-QI-001018,2025-08-01,Paediatrics,Patient identification,No harm,2025-08-12,11,False,False
+SYN-QI-001019,2025-08-20,Paediatrics,Pressure injury,Minor harm,2025-08-26,6,False,False
+SYN-QI-001020,2025-08-28,Paediatrics,Documentation,Minor harm,2025-09-16,19,False,False
+SYN-QI-001021,2025-08-16,Paediatrics,Pressure injury,No harm,2025-08-23,7,False,False
+SYN-QI-001022,2025-08-07,Maternity,Fall,Near miss,2025-10-10,64,False,False
+SYN-QI-001023,2025-08-24,Maternity,Delay in care,No harm,2025-08-30,6,False,False
+SYN-QI-001024,2025-08-21,Maternity,Pressure injury,Near miss,2025-09-15,25,False,False
+SYN-QI-001025,2025-08-15,Maternity,Delay in care,No harm,2025-08-28,13,False,False
+SYN-QI-001026,2025-08-10,Maternity,Pressure injury,Minor harm,2025-08-23,13,False,False
+SYN-QI-001027,2025-08-24,Maternity,Pressure injury,Minor harm,2025-09-16,23,False,False
+SYN-QI-001028,2025-08-25,Maternity,Other,Near miss,2025-09-26,32,False,False
+SYN-QI-001029,2025-08-20,Maternity,Documentation,Minor harm,2025-08-31,11,False,False
+SYN-QI-001030,2025-08-27,Maternity,Other,No harm,2025-09-17,21,False,False
+SYN-QI-001031,2025-09-27,Medical Ward A,Fall,No harm,2025-10-03,6,False,False
+SYN-QI-001032,2025-09-22,Medical Ward A,Fall,Near miss,2025-10-01,9,False,False
+SYN-QI-001033,2025-09-07,Medical Ward A,Medication error,No harm,2025-09-22,15,False,False
+SYN-QI-001034,2025-09-18,Medical Ward A,Other,No harm,2025-10-17,29,False,False
+SYN-QI-001035,2025-09-13,Medical Ward A,Other,Moderate harm,2025-09-19,6,True,True
+SYN-QI-001036,2025-09-28,Medical Ward A,Patient identification,No harm,2025-10-23,25,False,False
+SYN-QI-001037,2025-09-10,Medical Ward A,Patient identification,Moderate harm,2025-09-28,18,True,True
+SYN-QI-001038,2025-09-04,Surgical Ward B,Fall,Near miss,2025-09-24,20,False,False
+SYN-QI-001039,2025-09-16,Surgical Ward B,Medication error,Minor harm,2025-09-28,12,False,False
+SYN-QI-001040,2025-09-02,Surgical Ward B,Medication error,Minor harm,2025-09-17,15,False,False
+SYN-QI-001041,2025-09-24,Surgical Ward B,Patient identification,Near miss,2025-09-27,3,False,False
+SYN-QI-001042,2025-09-18,Surgical Ward B,Pressure injury,No harm,2025-09-25,7,False,False
+SYN-QI-001043,2025-09-28,Surgical Ward B,Documentation,No harm,2025-10-06,8,False,False
+SYN-QI-001044,2025-09-09,Surgical Ward B,Delay in care,No harm,2025-09-10,1,False,False
+SYN-QI-001045,2025-09-17,Surgical Ward B,Other,Moderate harm,2025-09-27,10,True,True
+SYN-QI-001046,2025-09-09,Surgical Ward B,Other,Moderate harm,2025-09-22,13,True,True
+SYN-QI-001047,2025-09-27,Surgical Ward B,Patient identification,Near miss,2025-10-21,24,False,False
+SYN-QI-001048,2025-09-18,Emergency Dept,Fall,No harm,2025-10-04,16,False,False
+SYN-QI-001049,2025-09-15,Emergency Dept,Fall,Minor harm,2025-09-22,7,False,False
+SYN-QI-001050,2025-09-01,Emergency Dept,Fall,Severe harm / Sentinel,2025-09-14,13,True,True
+SYN-QI-001051,2025-09-24,Emergency Dept,Medication error,Near miss,2025-10-18,24,False,False
+SYN-QI-001052,2025-09-12,Emergency Dept,Delay in care,No harm,2025-09-16,4,False,False
+SYN-QI-001053,2025-09-07,Emergency Dept,Pressure injury,No harm,2025-09-15,8,False,False
+SYN-QI-001054,2025-09-16,Emergency Dept,Patient identification,Near miss,2025-10-05,19,False,False
+SYN-QI-001055,2025-09-04,Emergency Dept,Documentation,No harm,2025-09-11,7,False,False
+SYN-QI-001056,2025-09-23,Emergency Dept,Patient identification,Minor harm,2025-11-04,42,False,False
+SYN-QI-001057,2025-09-04,Emergency Dept,Patient identification,Minor harm,2025-09-17,13,False,False
+SYN-QI-001058,2025-09-02,Paediatrics,Fall,Near miss,2025-09-08,6,False,False
+SYN-QI-001059,2025-09-02,Paediatrics,Fall,No harm,2025-09-06,4,False,False
+SYN-QI-001060,2025-09-29,Paediatrics,Medication error,Minor harm,2025-10-16,17,False,False
+SYN-QI-001061,2025-09-01,Paediatrics,Medication error,No harm,2025-09-28,27,False,False
+SYN-QI-001062,2025-09-28,Paediatrics,Medication error,Minor harm,2025-10-01,3,False,False
+SYN-QI-001063,2025-09-18,Paediatrics,Other,Near miss,2025-09-28,10,False,False
+SYN-QI-001064,2025-09-26,Paediatrics,Patient identification,No harm,2025-10-17,21,False,False
+SYN-QI-001065,2025-09-22,Paediatrics,Documentation,No harm,2025-10-19,27,False,False
+SYN-QI-001066,2025-09-01,Paediatrics,Other,Near miss,2025-09-09,8,False,False
+SYN-QI-001067,2025-09-03,Maternity,Medication error,Near miss,2025-09-28,25,False,False
+SYN-QI-001068,2025-09-22,Maternity,Medication error,Near miss,2025-10-02,10,False,False
+SYN-QI-001069,2025-09-04,Maternity,Medication error,Minor harm,2025-09-09,5,False,False
+SYN-QI-001070,2025-09-27,Maternity,Medication error,Moderate harm,2025-10-07,10,True,True
+SYN-QI-001071,2025-09-18,Maternity,Delay in care,Minor harm,2025-09-25,7,False,False
+SYN-QI-001072,2025-09-03,Maternity,Documentation,No harm,2025-10-06,33,False,False
+SYN-QI-001073,2025-09-01,Maternity,Pressure injury,No harm,2025-09-10,9,False,False
+SYN-QI-001074,2025-09-23,Maternity,Pressure injury,Near miss,2025-10-03,10,False,False
+SYN-QI-001075,2025-09-29,Maternity,Other,Minor harm,2025-10-14,15,False,False
+SYN-QI-001076,2025-10-14,Medical Ward A,Fall,Minor harm,2025-10-24,10,False,False
+SYN-QI-001077,2025-10-15,Medical Ward A,Medication error,Near miss,2025-10-18,3,False,False
+SYN-QI-001078,2025-10-13,Medical Ward A,Medication error,No harm,2025-11-05,23,False,False
+SYN-QI-001079,2025-10-03,Medical Ward A,Medication error,No harm,2025-10-27,24,False,False
+SYN-QI-001080,2025-10-23,Medical Ward A,Delay in care,No harm,2025-11-04,12,False,False
+SYN-QI-001081,2025-10-28,Medical Ward A,Delay in care,No harm,2025-11-05,8,False,False
+SYN-QI-001082,2025-10-14,Medical Ward A,Other,No harm,2025-11-11,28,False,False
+SYN-QI-001083,2025-10-14,Medical Ward A,Other,Minor harm,2025-11-04,21,False,False
+SYN-QI-001084,2025-10-06,Medical Ward A,Delay in care,Minor harm,2025-11-09,34,False,False
+SYN-QI-001085,2025-10-09,Medical Ward A,Delay in care,No harm,2025-10-23,14,False,False
+SYN-QI-001086,2025-10-09,Medical Ward A,Patient identification,No harm,2025-11-06,28,False,False
+SYN-QI-001087,2025-10-13,Medical Ward A,Equipment / device,Minor harm,2025-10-28,15,False,False
+SYN-QI-001088,2025-10-04,Surgical Ward B,Fall,No harm,2025-10-17,13,False,False
+SYN-QI-001089,2025-10-18,Surgical Ward B,Fall,Moderate harm,2025-11-16,29,True,True
+SYN-QI-001090,2025-10-13,Surgical Ward B,Fall,Near miss,2025-10-22,9,False,False
+SYN-QI-001091,2025-10-01,Surgical Ward B,Medication error,No harm,2025-10-15,14,False,False
+SYN-QI-001092,2025-10-02,Surgical Ward B,Medication error,Near miss,2025-11-22,51,False,False
+SYN-QI-001093,2025-10-27,Surgical Ward B,Other,No harm,2025-10-31,4,False,False
+SYN-QI-001094,2025-10-08,Surgical Ward B,Other,Moderate harm,2025-10-14,6,True,True
+SYN-QI-001095,2025-10-15,Surgical Ward B,Documentation,Near miss,2025-10-25,10,False,False
+SYN-QI-001096,2025-10-02,Surgical Ward B,Pressure injury,Near miss,2025-10-20,18,False,False
+SYN-QI-001097,2025-10-16,Surgical Ward B,Delay in care,No harm,2025-10-24,8,False,False
+SYN-QI-001098,2025-10-23,Surgical Ward B,Pressure injury,No harm,2025-10-28,5,False,False
+SYN-QI-001099,2025-10-09,Surgical Ward B,Patient identification,Minor harm,2025-10-24,15,False,False
+SYN-QI-001100,2025-10-11,ICU,Medication error,No harm,2025-10-20,9,False,False
+SYN-QI-001101,2025-10-21,ICU,Medication error,No harm,2025-11-21,31,False,False
+SYN-QI-001102,2025-10-26,ICU,Medication error,No harm,2025-11-16,21,False,False
+SYN-QI-001103,2025-10-28,ICU,Pressure injury,Near miss,2025-10-31,3,False,False
+SYN-QI-001104,2025-10-31,Emergency Dept,Medication error,Moderate harm,2025-11-25,25,True,True
+SYN-QI-001105,2025-10-01,Emergency Dept,Medication error,No harm,2025-10-04,3,False,False
+SYN-QI-001106,2025-10-10,Emergency Dept,Other,Minor harm,2025-11-03,24,False,False
+SYN-QI-001107,2025-10-12,Emergency Dept,Documentation,Near miss,2025-10-25,13,False,False
+SYN-QI-001108,2025-10-09,Emergency Dept,Pressure injury,Near miss,2025-10-20,11,False,False
+SYN-QI-001109,2025-10-03,Emergency Dept,Pressure injury,No harm,2025-10-15,12,False,False
+SYN-QI-001110,2025-10-22,Emergency Dept,Documentation,No harm,2025-11-15,24,False,False
+SYN-QI-001111,2025-10-05,Paediatrics,Pressure injury,No harm,2025-10-21,16,False,False
+SYN-QI-001112,2025-10-30,Maternity,Fall,Minor harm,2025-11-09,10,False,False
+SYN-QI-001113,2025-10-21,Maternity,Delay in care,No harm,2025-10-28,7,False,False
+SYN-QI-001114,2025-10-28,Maternity,Patient identification,Near miss,2025-11-11,14,False,False
+SYN-QI-001115,2025-10-21,Maternity,Other,No harm,2025-10-28,7,False,False
+SYN-QI-001116,2025-10-15,Maternity,Other,Near miss,2025-10-24,9,False,False
+SYN-QI-001117,2025-10-26,Maternity,Other,Near miss,2025-11-12,17,False,False
+SYN-QI-001118,2025-11-05,Medical Ward A,Medication error,Near miss,2025-11-09,4,False,False
+SYN-QI-001119,2025-11-01,Medical Ward A,Medication error,Near miss,2025-11-20,19,False,False
+SYN-QI-001120,2025-11-11,Medical Ward A,Other,Near miss,2025-11-25,14,False,False
+SYN-QI-001121,2025-11-24,Medical Ward A,Patient identification,Severe harm / Sentinel,2025-11-28,4,True,True
+SYN-QI-001122,2025-11-27,Medical Ward A,Other,Near miss,2025-12-13,16,False,False
+SYN-QI-001123,2025-11-15,Medical Ward A,Documentation,No harm,2025-11-25,10,False,False
+SYN-QI-001124,2025-11-01,Medical Ward A,Patient identification,No harm,2025-11-08,7,False,False
+SYN-QI-001125,2025-11-23,Medical Ward A,Pressure injury,Near miss,2025-12-06,13,False,False
+SYN-QI-001126,2025-11-12,Medical Ward A,Pressure injury,Near miss,2025-11-16,4,False,False
+SYN-QI-001127,2025-11-06,Medical Ward A,Other,Near miss,2025-12-08,32,False,False
+SYN-QI-001128,2025-11-08,Surgical Ward B,Medication error,No harm,2025-11-22,14,False,False
+SYN-QI-001129,2025-11-13,Surgical Ward B,Medication error,Moderate harm,2025-11-19,6,True,True
+SYN-QI-001130,2025-11-19,Surgical Ward B,Medication error,Moderate harm,2025-11-29,10,True,True
+SYN-QI-001131,2025-11-01,Surgical Ward B,Medication error,Minor harm,2025-11-13,12,False,False
+SYN-QI-001132,2025-11-12,Surgical Ward B,Medication error,Minor harm,2025-11-24,12,False,False
+SYN-QI-001133,2025-11-03,Surgical Ward B,Other,No harm,2025-11-20,17,False,False
+SYN-QI-001134,2025-11-18,Surgical Ward B,Documentation,No harm,2025-12-09,21,False,False
+SYN-QI-001135,2025-11-29,Surgical Ward B,Other,Near miss,2025-12-04,5,False,False
+SYN-QI-001136,2025-11-18,Surgical Ward B,Delay in care,No harm,2025-12-24,36,False,False
+SYN-QI-001137,2025-11-15,Surgical Ward B,Equipment / device,Minor harm,2025-11-28,13,False,False
+SYN-QI-001138,2025-11-08,Surgical Ward B,Equipment / device,No harm,2025-11-24,16,False,False
+SYN-QI-001139,2025-11-21,Surgical Ward B,Patient identification,Near miss,2025-12-11,20,False,False
+SYN-QI-001140,2025-11-06,Surgical Ward B,Delay in care,Moderate harm,2025-11-20,14,True,True
+SYN-QI-001141,2025-11-10,Surgical Ward B,Other,Minor harm,2025-12-19,39,False,False
+SYN-QI-001142,2025-11-03,ICU,Medication error,Near miss,2025-11-15,12,False,False
+SYN-QI-001143,2025-11-16,ICU,Documentation,No harm,2025-11-28,12,False,False
+SYN-QI-001144,2025-11-13,ICU,Patient identification,Severe harm / Sentinel,2025-11-14,1,True,True
+SYN-QI-001145,2025-11-04,ICU,Equipment / device,Moderate harm,2025-11-23,19,True,True
+SYN-QI-001146,2025-11-28,Emergency Dept,Fall,Near miss,2025-12-18,20,False,False
+SYN-QI-001147,2025-11-13,Emergency Dept,Medication error,No harm,2025-11-26,13,False,False
+SYN-QI-001148,2025-11-26,Emergency Dept,Delay in care,No harm,2025-12-31,35,False,False
+SYN-QI-001149,2025-11-04,Emergency Dept,Documentation,No harm,2025-12-09,35,False,False
+SYN-QI-001150,2025-11-12,Emergency Dept,Documentation,Near miss,2025-12-04,22,False,False
+SYN-QI-001151,2025-11-23,Emergency Dept,Documentation,No harm,2025-12-06,13,False,False
+SYN-QI-001152,2025-11-23,Emergency Dept,Delay in care,Near miss,2025-12-03,10,False,False
+SYN-QI-001153,2025-11-16,Emergency Dept,Pressure injury,Near miss,2025-12-12,26,False,False
+SYN-QI-001154,2025-11-10,Paediatrics,Medication error,Moderate harm,2025-12-05,25,True,True
+SYN-QI-001155,2025-11-13,Paediatrics,Delay in care,Moderate harm,2025-11-23,10,True,True
+SYN-QI-001156,2025-11-17,Paediatrics,Delay in care,Near miss,2025-11-23,6,False,False
+SYN-QI-001157,2025-11-14,Paediatrics,Pressure injury,Near miss,2025-11-24,10,False,False
+SYN-QI-001158,2025-11-01,Maternity,Medication error,No harm,2025-11-10,9,False,False
+SYN-QI-001159,2025-11-19,Maternity,Medication error,No harm,2025-12-15,26,False,False
+SYN-QI-001160,2025-11-29,Maternity,Medication error,Moderate harm,2025-12-25,26,True,True
+SYN-QI-001161,2025-11-26,Maternity,Medication error,No harm,2025-12-03,7,False,False
+SYN-QI-001162,2025-11-13,Maternity,Patient identification,No harm,2025-11-26,13,False,False
+SYN-QI-001163,2025-11-10,Maternity,Patient identification,Minor harm,2025-11-29,19,False,False
+SYN-QI-001164,2025-11-25,Maternity,Patient identification,Near miss,2025-12-14,19,False,False
+SYN-QI-001165,2025-11-07,Maternity,Delay in care,Near miss,2025-11-16,9,False,False
+SYN-QI-001166,2025-11-16,Maternity,Pressure injury,No harm,2025-12-22,36,False,False
+SYN-QI-001167,2025-11-29,Maternity,Delay in care,Minor harm,2025-12-22,23,False,False
+SYN-QI-001168,2025-11-29,Maternity,Patient identification,No harm,2025-12-21,22,False,False
+SYN-QI-001169,2025-11-16,Maternity,Pressure injury,Near miss,2025-12-01,15,False,False
+SYN-QI-001170,2025-12-31,Medical Ward A,Fall,No harm,2026-01-13,13,False,False
+SYN-QI-001171,2025-12-21,Medical Ward A,Fall,Minor harm,2026-01-12,22,False,False
+SYN-QI-001172,2025-12-30,Medical Ward A,Medication error,Minor harm,2026-01-18,19,False,False
+SYN-QI-001173,2025-12-02,Medical Ward A,Medication error,No harm,2025-12-20,18,False,False
+SYN-QI-001174,2025-12-03,Medical Ward A,Medication error,Minor harm,2025-12-14,11,False,False
+SYN-QI-001175,2025-12-10,Medical Ward A,Medication error,Near miss,2026-01-01,22,False,False
+SYN-QI-001176,2025-12-03,Medical Ward A,Medication error,Near miss,2025-12-12,9,False,False
+SYN-QI-001177,2025-12-25,Medical Ward A,Other,No harm,2026-01-11,17,False,False
+SYN-QI-001178,2025-12-27,Medical Ward A,Other,No harm,2026-01-10,14,False,False
+SYN-QI-001179,2025-12-24,Medical Ward A,Patient identification,Minor harm,2026-01-02,9,False,False
+SYN-QI-001180,2025-12-08,Medical Ward A,Other,Near miss,2025-12-22,14,False,False
+SYN-QI-001181,2025-12-01,Medical Ward A,Patient identification,Moderate harm,2025-12-16,15,True,True
+SYN-QI-001182,2025-12-25,Surgical Ward B,Fall,Minor harm,2026-01-07,13,False,False
+SYN-QI-001183,2025-12-28,Surgical Ward B,Medication error,No harm,2026-01-19,22,False,False
+SYN-QI-001184,2025-12-28,Surgical Ward B,Medication error,No harm,2026-01-12,15,False,False
+SYN-QI-001185,2025-12-06,Surgical Ward B,Equipment / device,Near miss,2026-01-01,26,False,False
+SYN-QI-001186,2025-12-26,Surgical Ward B,Delay in care,No harm,2026-01-06,11,False,False
+SYN-QI-001187,2025-12-07,Surgical Ward B,Pressure injury,No harm,2025-12-27,20,False,False
+SYN-QI-001188,2025-12-14,Surgical Ward B,Delay in care,No harm,2025-12-20,6,False,False
+SYN-QI-001189,2025-12-31,Surgical Ward B,Patient identification,No harm,2026-01-10,10,False,False
+SYN-QI-001190,2025-12-04,Surgical Ward B,Documentation,Near miss,2025-12-18,14,False,False
+SYN-QI-001191,2025-12-26,Surgical Ward B,Other,Near miss,2026-01-08,13,False,False
+SYN-QI-001192,2025-12-04,ICU,Medication error,No harm,2025-12-09,5,False,False
+SYN-QI-001193,2025-12-20,ICU,Other,Moderate harm,2026-01-13,24,True,True
+SYN-QI-001194,2025-12-29,ICU,Delay in care,Minor harm,2026-01-07,9,False,False
+SYN-QI-001195,2025-12-20,ICU,Patient identification,Near miss,2025-12-28,8,False,False
+SYN-QI-001196,2025-12-11,ICU,Equipment / device,No harm,2026-01-14,34,False,False
+SYN-QI-001197,2025-12-17,Emergency Dept,Fall,Minor harm,2025-12-21,4,False,False
+SYN-QI-001198,2025-12-25,Emergency Dept,Fall,Minor harm,2026-01-03,9,False,False
+SYN-QI-001199,2025-12-26,Emergency Dept,Medication error,No harm,2026-01-02,7,False,False
+SYN-QI-001200,2025-12-17,Emergency Dept,Other,Near miss,2026-01-03,17,False,False
+SYN-QI-001201,2025-12-11,Emergency Dept,Documentation,No harm,2026-01-07,27,False,False
+SYN-QI-001202,2025-12-28,Emergency Dept,Documentation,No harm,2026-01-15,18,False,False
+SYN-QI-001203,2025-12-28,Emergency Dept,Pressure injury,Near miss,2026-01-01,4,False,False
+SYN-QI-001204,2025-12-07,Emergency Dept,Documentation,Near miss,2025-12-13,6,False,False
+SYN-QI-001205,2025-12-13,Paediatrics,Delay in care,Near miss,2025-12-30,17,False,False
+SYN-QI-001206,2025-12-08,Paediatrics,Other,No harm,2026-01-03,26,False,False
+SYN-QI-001207,2025-12-29,Paediatrics,Equipment / device,Near miss,2026-01-05,7,False,False
+SYN-QI-001208,2025-12-09,Paediatrics,Equipment / device,No harm,2025-12-19,10,False,False
+SYN-QI-001209,2025-12-05,Paediatrics,Equipment / device,Moderate harm,2026-01-04,30,True,True
+SYN-QI-001210,2025-12-06,Maternity,Fall,No harm,2025-12-25,19,False,False
+SYN-QI-001211,2025-12-10,Maternity,Medication error,Near miss,2025-12-14,4,False,False
+SYN-QI-001212,2025-12-23,Maternity,Medication error,Near miss,2026-01-17,25,False,False
+SYN-QI-001213,2025-12-22,Maternity,Medication error,No harm,2025-12-25,3,False,False
+SYN-QI-001214,2025-12-21,Maternity,Other,Moderate harm,2026-01-01,11,True,True
+SYN-QI-001215,2025-12-03,Maternity,Equipment / device,Minor harm,2025-12-09,6,False,False
+SYN-QI-001216,2025-12-07,Maternity,Other,No harm,2025-12-29,22,False,False
+SYN-QI-001217,2025-12-17,Maternity,Equipment / device,Minor harm,2025-12-22,5,False,False
+SYN-QI-001218,2025-12-28,Maternity,Pressure injury,No harm,2025-12-29,1,False,False
+SYN-QI-001219,2025-12-23,Maternity,Patient identification,No harm,2026-01-26,34,False,False
